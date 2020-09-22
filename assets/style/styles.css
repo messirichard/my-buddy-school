@@ -231,6 +231,7 @@ html {
   font-size: 48px;
   line-height: 72px;
   color: #00a2e9;
+  margin-bottom: 40px;
 }
 .landing-sec-1 .inners .box-content button {
   background: linear-gradient(180deg, #00A2E9 0%, #5FC2ED 100%);
