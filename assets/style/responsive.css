@@ -1,0 +1,5 @@
+@media screen and (max-width: 450px) {
+  .landing-sec-1 .inners .box-content {
+    display: none;
+  }
+}
