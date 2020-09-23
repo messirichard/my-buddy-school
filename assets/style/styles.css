@@ -186,6 +186,14 @@ button:hover {
   text-decoration: none;
   cursor: pointer;
 }
+input:active,
+input:hover,
+input:focus,
+input {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
 button {
   border: none;
 }
@@ -775,6 +783,133 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
+.contents-courses .prelative.container .detail-tutors-content .context-tops {
+  height: 360px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-lefts {
+  width: 266px;
+  max-width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(0, 162, 233, 0.1);
+  border-radius: 8px;
+  height: 360px;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-lefts .inns {
+  padding-top: 75px;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-lefts .inns img {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-lefts .inns h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #00A2E9;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-lefts .inns h6 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #5C5C5C;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-lefts .sends {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  width: 77.5%;
+  border-top: 1px solid #e4e4e4;
+  margin: 20px 0px;
+  text-align: center;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-lefts .sends a {
+  top: 11px;
+  position: relative;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-lefts .sends a img {
+  display: inline;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-lefts .sends a p {
+  top: 1px;
+  position: relative;
+  display: inline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #FF8A00;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-right {
+  height: 360px;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(0, 162, 233, 0.1);
+  border-radius: 8px;
+  padding: 10px 25px;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-right form label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #5C5C5C;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-right form input {
+  opacity: 0.4;
+  border: 1px solid #5C5C5C;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 55px;
+  margin-bottom: 15px;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-right form input:active,
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-right form input:hover,
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-right form input:focus {
+  outline: none;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-right form input::-webkit-input-placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #5C5C5C;
+  opacity: 0.8;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-right .bottoms {
+  margin-top: -8px;
+  text-align: center;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-right .bottoms .context img {
+  display: inline;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-right .bottoms .context a {
+  display: inline;
+  margin-left: 10px;
+}
+.contents-courses .prelative.container .detail-tutors-content .context-tops .box-right .bottoms .context a p {
+  display: inline;
+  top: 2px;
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #5C5C5C;
+}
 .contents-courses .prelative.container .detail-tutors-content .courses .titels p {
   font-style: normal;
   font-weight: 300;
@@ -782,6 +917,104 @@ html {
   line-height: 25px;
   text-transform: capitalize;
   color: #5C5C5C;
+}
+.form-alls {
+  background-image: url('../../assets/img/backs.png');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #EFF6FB;
+}
+.form-alls .contents-err {
+  display: table;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+.form-alls .contents-err .inners {
+  vertical-align: middle;
+  display: table-cell;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.form-alls .contents-err .inners h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 131px;
+  text-align: center;
+  color: #363636;
+  letter-spacing: 20px;
+}
+.form-alls .contents-err .inners p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  color: #363636;
+}
+.form-alls .contents-forgot {
+  display: table;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+.form-alls .contents-forgot .inners {
+  vertical-align: middle;
+  display: table-cell;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.form-alls .contents-forgot .inners .box-context {
+  width: 450px;
+  margin: 0 auto;
+  display: block;
+}
+.form-alls .contents-forgot .inners .box-context h4 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #5C5C5C;
+  margin: 20px 0 10px 0;
+}
+.form-alls .contents-forgot .inners .box-context p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #5C5C5C;
+}
+.form-alls .contents-forgot .inners .box-context input {
+  height: 60px;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 40px rgba(0, 162, 233, 0.1);
+  border-radius: 10px;
+  margin: 20px 0 0px;
+  line-height: normal;
+}
+.form-alls .contents-forgot .inners .box-context input::-webkit-input-placeholder {
+  padding-left: 10px;
+}
+.form-alls button.butts-button {
+  margin-top: 40px;
+  width: 282px;
+  height: 56px;
+  background: linear-gradient(180deg, #00A2E9 0%, #5FC2ED 100%);
+  box-shadow: 0px 4px 40px rgba(0, 162, 233, 0.2);
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
 }
 .contents-courses.details-mitra {
   background-image: url('../../assets/img/framesdet.png');
