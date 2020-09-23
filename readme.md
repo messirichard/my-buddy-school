@@ -3,16 +3,16 @@ Layouts html nya bisa diambil di folder /page/Layouts
 
 -- Links
   - LandingPage
-    https://my-buddy-school.vercel.app/page/LangdingPage (S1P1)
+    https://my-buddy-school.vercel.app/page/LangdingPage (S1P1) (Responsive done)
 
   - Forgot Password
-    https://my-buddy-school.vercel.app/page/ForgotPassword/form.html (S1P12)
-    https://my-buddy-school.vercel.app/page/ForgotPassword/message.html (S1P13)
+    https://my-buddy-school.vercel.app/page/ForgotPassword/form.html (S1P12) (Responsive done)
+    https://my-buddy-school.vercel.app/page/ForgotPassword/message.html (S1P13) (Responsive done)
 
   - Dashboard
 
   - Login
-    https://my-buddy-school.vercel.app/page/Login/logins.html (S1P5)
+    https://my-buddy-school.vercel.app/page/Login/logins.html (S1P5) 
     (email belum)
 
   - Register
