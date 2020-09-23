@@ -106,10 +106,6 @@ h6,
 p {
   font-family: 'Nunito Sans', sans-serif;
 }
-body,
-html {
-  overflow-x: hidden;
-}
 .prelative.container {
   max-width: 1280px;
   margin: 0 auto;
@@ -123,6 +119,7 @@ html {
   color: #00A2E9 !important;
 }
 .navbar {
+  z-index: 1;
   background: #FEFEFE;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
 }
@@ -155,7 +152,7 @@ html {
   text-align: center;
 }
 .navbar .search-form {
-  min-width: 350px;
+  min-width: 400px;
 }
 .search-form .input-search {
   border-top-left-radius: 10px;
@@ -181,9 +178,54 @@ html {
   width: 40px;
   height: 40px;
   object-fit: cover;
-  border-radius: 100%;
+}
+.text-bold {
+  font-family: 'Nunito Sans';
+  font-weight: bold;
 }
 .navbar-nav .nav-item .nav-link {
   font-family: 'Nunito Sans';
   font-weight: bold;
+}
+.dropdown-menu .dropdown-item {
+  font-family: 'Nunito Sans';
+  font-weight: bold;
+}
+.pref-footer {
+  background: #DFE8F0;
+  box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.05);
+}
+.pref-footer .about-us {
+  color: #5C5C5C;
+  font-size: 15px;
+}
+.pref-footer .social-media {
+  list-style: none;
+}
+.pref-footer .social-media .item {
+  background: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.pref-footer .social-media .item .link {
+  color: #B9B9B9;
+}
+.pref-footer .footer-link {
+  color: #5C5C5C;
+  list-style: none;
+}
+.pref-footer .footer-link .item a {
+  color: #5C5C5C;
+}
+.footer {
+  background-color: #6A8FA3;
+}
+@media (max-width: 576px) {
+  .pref-footer .logo {
+    text-align: center;
+  }
+  .pref-footer .social-media {
+    justify-content: center;
+  }
 }
