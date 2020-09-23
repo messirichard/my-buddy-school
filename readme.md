@@ -12,12 +12,12 @@ Layouts html nya bisa diambil di folder /page/Layouts
   - Dashboard
 
   - Login
-    https://my-buddy-school.vercel.app/page/Login/logins.html (S1P5) 
+    https://my-buddy-school.vercel.app/page/Login/logins.html (S1P5) (Responsive done)
     (email belum)
 
   - Register
-    https://my-buddy-school.vercel.app/page/Register/register.html (S1P8)
-    https://my-buddy-school.vercel.app/page/Register/confirmemail.html (S1P9)
+    https://my-buddy-school.vercel.app/page/Register/register.html (S1P8) (Responsive done)
+    https://my-buddy-school.vercel.app/page/Register/confirmemail.html (S1P9) (Responsive done)
 
   - General Error
     https://my-buddy-school.vercel.app/page/ErrorPage (S1P16)

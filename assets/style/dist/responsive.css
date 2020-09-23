@@ -69,7 +69,9 @@
     height: 245px;
     width: 100%;
   }
-  .form-alls .contents-forgot .inners .box-context {
+  .form-alls .contents-forgot .inners .box-context,
+  .form-alls .contents-login .inners .box-context,
+  .form-alls .contents-regist .inners .box-context {
     padding: 0 25px;
   }
 }
