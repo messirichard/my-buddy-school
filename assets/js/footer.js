@@ -2,7 +2,7 @@ class Footer extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
         <div class="p-5 pref-footer">
-            <div class="container">
+            <div class="prelative container">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="logo mb-4">

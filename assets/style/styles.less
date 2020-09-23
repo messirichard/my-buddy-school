@@ -58,6 +58,138 @@ html {
     position: relative;
 }
 
+
+.navbar {
+    z-index: 1;
+    background: #FEFEFE;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+
+    .navbar-brand img {
+        height: 30px;
+    }
+
+    .btn-signin {
+        background: #00A2E9;
+        border-radius: 22.5px;
+        color: #fff;
+        font-size: 15px;
+        padding: 5px 15px !important;
+    }
+
+    .btn-signup {
+        background: #FFFFFF;
+        border: 1px solid #00A2E9;
+        box-sizing: border-box;
+        border-radius: 22.5px;
+        padding: 5px 15px !important;
+        color: #00A2E9 !important;
+    }
+
+    .badge-mail {
+        background-color: #FF8A00 !important;
+        position: absolute;
+        margin-left: -8px;
+        font-size: 10px;
+        border-radius: 100%;
+        height: 16px;
+        width: 17px;
+        text-align: center;
+    }
+
+    .search-form {
+        min-width: 400px;
+    }
+    .search-form {
+        .input-search {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-left: 1px solid rgba(150, 150, 150, 0.21);
+            border-top: 1px solid rgba(150, 150, 150, 0.21);
+            border-right: 0;
+            border-bottom: 1px solid rgba(150, 150, 150, 0.21);
+        }
+    
+        .btn-search {
+            border: 0;
+            background: #FFFFFF;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-top: 1px solid rgba(150, 150, 150, 0.21);
+            border-right: 1px solid rgba(150, 150, 150, 0.21);
+            border-bottom: 1px solid rgba(150, 150, 150, 0.21);
+        }
+    
+        .form-control {
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+    
+    
+    .text-bold {
+        font-family: 'Nunito Sans';
+        font-weight: bold;
+    }
+    
+    .dropdown-menu {
+        .dropdown-item {
+            .text-bold
+        }
+    }
+    
+    li.nav-item.dropdown{
+        margin-left: 15px;
+    }
+}
+                    .img-fit {
+                        width: 40px;
+                        height: 40px;
+                        object-fit: cover;
+                    }
+
+
+
+.pref-footer {
+    background: #DFE8F0;
+    box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.05);
+
+    .about-us {
+        color: #5C5C5C;
+        font-size: 15px;
+    }
+
+    .social-media {
+        list-style: none;
+
+        .item {
+            background: #FFFFFF;
+            border: 1px solid #E4E4E4;
+            box-sizing: border-box;
+            border-radius: 6px;
+
+            .link {
+                color: #B9B9B9;
+            }
+        }
+    }
+
+    .footer-link {
+        color: #5C5C5C;
+        list-style: none;
+
+        .item {
+            a {
+                color: #5C5C5C;
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: #6A8FA3;
+}
+
 .landing-sec-1 {
     background-color: @color-backs;
     max-height: 782px;
@@ -900,13 +1032,14 @@ html {
             }
         }
 
-        .not-founds{
-            img{
+        .not-founds {
+            img {
                 margin: 0 auto;
                 display: block;
                 position: relative;
             }
-            h6{
+
+            h6 {
                 font-style: normal;
                 font-weight: bold;
                 font-size: 24px;
@@ -915,7 +1048,8 @@ html {
                 color: #000000;
                 margin: 20px 0 10px;
             }
-            p{
+
+            p {
                 font-style: normal;
                 font-weight: 300;
                 font-size: 16px;
@@ -948,23 +1082,29 @@ html {
             position: relative;
             text-align: center;
 
-            h4 {
-                font-style: normal;
-                font-weight: bold;
-                font-size: 96px;
-                line-height: 131px;
-                text-align: center;
-                color: #363636;
-                letter-spacing: 20px;
+            .box-context{
+                max-width: 600px;
+                margin: 0 auto;
+                width: 100%;
+                h4 {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 96px;
+                    line-height: 131px;
+                    text-align: center;
+                    color: #363636;
+                    letter-spacing: 20px;
+                }
+    
+                p {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 25px;
+                    text-align: center;
+                    color: #363636;
+                }
             }
 
-            p {
-                font-style: normal;
-                font-weight: bold;
-                font-size: 25px;
-                text-align: center;
-                color: #363636;
-            }
         }
     }
 
@@ -1099,17 +1239,18 @@ html {
                 width: 100%;
                 margin: 0 auto;
 
-                img{
+                img {
                     margin-bottom: 30px;
                 }
 
-                .logos-svg{
-                    .inners-logos{
+                .logos-svg {
+                    .inners-logos {
                         border-bottom: 6px solid #c4c4c4;
                         height: 145px;
-                        a{
-                            
-                            p{
+
+                        a {
+
+                            p {
                                 text-align: center;
                                 font-style: normal;
                                 font-weight: normal;
@@ -1119,15 +1260,18 @@ html {
                             }
                         }
                     }
+
                     .inners-logos:hover {
                         border-bottom: 6px solid #00A2E9;
+
                         .icons:hover {
                             fill: #00A2E9;
                         }
-                                            p:hover{
-                                                color: #5c5c5c;
-                                            }
-                            }
+
+                        p:hover {
+                            color: #5c5c5c;
+                        }
+                    }
                 }
 
                 h6 {
@@ -1164,6 +1308,7 @@ html {
                     }
                 }
             }
+
             div[class*="fills-"] {
                 display: none;
             }

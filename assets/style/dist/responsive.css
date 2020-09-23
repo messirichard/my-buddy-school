@@ -71,8 +71,82 @@
   }
   .form-alls .contents-forgot .inners .box-context,
   .form-alls .contents-login .inners .box-context,
-  .form-alls .contents-regist .inners .box-context {
+  .form-alls .contents-regist .inners .box-context,
+  .form-alls .contents-err .inners .box-context {
     padding: 0 25px;
+  }
+  .form-alls .contents-err .inners .box-context img {
+    width: 100%;
+  }
+  .pref-footer {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .pref-footer .logo {
+    text-align: center;
+  }
+  .pref-footer .social-media {
+    justify-content: center;
+  }
+  .contents-courses .prelative.container .box-content .inss h4 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .contents-courses .prelative.container .box-content .inss h5 {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+  }
+  .contents-courses .prelative.container .box-content .inss .author .texts {
+    left: 25px;
+  }
+  .slick-next,
+  .slick-prev {
+    top: 40%;
+  }
+  .slick-prev {
+    left: -10px;
+    z-index: 10;
+  }
+  .slick-next {
+    right: 0px;
+  }
+  .cover-all .image {
+    display: none;
+  }
+  .contents-courses .prelative.container .slick-carousel.slick-initialized.slick-slider {
+    height: 355px;
+  }
+  .cover-all .inners .box-content h4 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .cover-all {
+    padding: 20px 0;
+  }
+  .contents-courses .prelative.container .courses.grade-all-mitra .mitras .box-mitras {
+    width: 155px;
+  }
+  .contents-courses .prelative.container .courses.grade-all-mitra .mitras .box-mitras img {
+    width: 100px;
+  }
+  .contents-courses .prelative.container .mitras .box-mitras h5 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .contents-courses .prelative.container .detail-mitra-content .tops-dets {
+    padding: 18px;
+  }
+  .contents-courses .prelative.container .detail-mitra-content .tops-dets .heads h5 {
+    font-size: 25px;
+    line-height: 22px;
+  }
+  .contents-courses .prelative.container .detail-mitra-content .tops-dets .bottoms .context a p {
+    display: none;
+  }
+  .contents-courses .prelative.container .detail-mitra-content .youtubes iframe {
+    height: 300px;
   }
 }
 @media screen and (max-width: 380px) {

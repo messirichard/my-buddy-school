@@ -2,7 +2,14 @@ $('.slick-carousel').slick({
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    arrows: true
+    arrows: true,
+    responsive: [{
+        breakpoint: 450,
+        settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+        }
+    }]
 });
 
 $('.buttonsss').first().addClass('active');
