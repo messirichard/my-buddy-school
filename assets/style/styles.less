@@ -23,7 +23,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+label {
     margin-bottom: 0;
     font-family: @font;
 }
@@ -325,49 +326,56 @@ html {
     }
 }
 
+.cover-all.covers-dets {
+    padding: 40px 0;
+}
+
 .contents-courses {
     background-image: url('../../assets/img/Frames5.png');
     height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: @color-backs;
+    
+    .breadcrumbs {
+        nav {
+            ol {
+                background: none;
+                padding-left: 0;
+                padding-top: 30px;
+                left: 2.5%;
+                position: relative;
 
-    .prelative.container {
-        .breadcrumbs {
-            nav {
-                ol {
-                    background: none;
-                    padding-left: 0;
-                    padding-top: 30px;
-
-                    li {
-                        a {
-                            font-style: normal;
-                            font-weight: 300;
-                            font-size: 16px;
-                            line-height: 22px;
-                            color: #C4C4C4;
-                        }
+                li {
+                    a {
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 22px;
+                        color: #C4C4C4;
                     }
                 }
             }
         }
+    }
 
-        .breadcrumb-item.active {
-            color: #00A2E9;
-            font-weight: 300;
-            font-size: 16px;
-            line-height: 22px;
-        }
+    .breadcrumb-item.active {
+        color: #00A2E9;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+    }
 
-        .breadcrumb-item+.breadcrumb-item::before {
-            display: inline-block;
-            padding-right: .5rem;
-            color: #C4C4C4;
-            content: ">";
-            top: -1px;
-            position: relative;
-        }
+    .breadcrumb-item+.breadcrumb-item::before {
+        display: inline-block;
+        padding-right: .5rem;
+        color: #e6dfdf;
+        content: "\f054";
+        top: -1px;
+        font-family: "Font Awesome 5 Pro";
+        position: relative;
+    }
+    .prelative.container {
 
         .titels {
             margin-bottom: 25px;
@@ -474,6 +482,7 @@ html {
                     color: #FFFFFF;
                     font-family: @font;
                 }
+
                 button.quit {
                     background: linear-gradient(180deg, #FF5E5B 0%, #FFA2A0 100%);
                     border-radius: 5px;
@@ -599,8 +608,132 @@ html {
                 }
             }
         }
-    }
 
+        .detail-mitra-content {
+            max-width: 800px;
+            margin: 50px auto;
+            .tops-dets {
+                padding: 45px;
+                background-color: #fff;
+
+                .heads {
+                    h5 {
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 36px;
+                        line-height: 49px;
+                        text-transform: capitalize;
+                        color: #5C5C5C;
+                        text-align: center;
+                    }
+                    img{
+                        text-align: center;
+                        margin: 30px auto;
+                        display: block;
+                    }
+                }
+                form{
+                    padding-bottom: 30px;
+                    border-bottom:1px solid #e4e4e4;
+                    label{
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 30px;
+                        letter-spacing: 0.04em;
+                        color: #5C5C5C;
+                    }
+                    input{
+                        opacity: 0.4;
+                        border: 1px solid #5C5C5C;
+                        box-sizing: border-box;
+                        border-radius: 10px;
+                        height: 55px;
+                        margin-bottom: 15px;
+                    }
+                    input:active,
+                    input:hover,
+                    input:focus {
+                        outline: none;
+                    }
+                    input::-webkit-input-placeholder {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 30px;
+                        letter-spacing: 0.04em;
+                        color: #5C5C5C;
+                        opacity: 0.8;
+                    }
+                }
+                .bottoms {
+                    margin-top: 30px;
+                    .context {
+                        img{
+                            display: inline;
+                        }
+                        a{
+                            display: inline;
+                            margin-left: 10px;
+                            p{
+                                display: inline;
+                                top: 2px;
+                                position: relative;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 14px;
+                                line-height: 30px;
+                                letter-spacing: 0.04em;
+                                color: #5C5C5C;
+                            }
+                        }
+                    }
+                }
+            }
+            .youtubes{
+                margin: 50px 0;
+            }
+        }
+
+        .detail-tutors-content {
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            .courses{
+                .titels{
+                    p{
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 25px;
+                        text-transform: capitalize;
+                        color: #5C5C5C;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contents-courses.details-mitra {
+    background-image: url('../../assets/img/framesdet.png');
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: @color-backs;
+}
+
+.contents-courses .prelative.container .courses.grade-all-mitra .mitras .box-mitras {
+    margin-bottom: 0;
+    width: 226px;
+}
+
+.contents-courses .prelative.container .courses.grade-all-tutors .tutor-bss .box-tutor {
+    margin-bottom: 0;
+}
+
+.contents-courses .prelative.container .courses.grade-all-mitra .mitras {
+    border-bottom: none;
 }
 
 .slick-next::before,
