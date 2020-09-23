@@ -128,7 +128,8 @@
   .contents-courses .prelative.container .courses.grade-all-mitra .mitras .box-mitras {
     width: 155px;
   }
-  .contents-courses .prelative.container .courses.grade-all-mitra .mitras .box-mitras img {
+  .contents-courses .prelative.container .courses.grade-all-mitra .mitras .box-mitras img,
+  .contents-courses .prelative.container .mitras .box-mitras img {
     width: 100px;
   }
   .contents-courses .prelative.container .mitras .box-mitras h5 {
@@ -147,6 +148,10 @@
   }
   .contents-courses .prelative.container .detail-mitra-content .youtubes iframe {
     height: 300px;
+  }
+  .contents-courses .prelative.container .tutor-bss .box-tutor {
+    width: 155px;
+    margin-bottom: 15px;
   }
 }
 @media screen and (max-width: 380px) {
