@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/style/bootstrap-drawer.css">
     <link rel="stylesheet" href="../../assets/style/styles.css">
     <link rel="stylesheet" href="../../assets/style/responsive.css">
-
+    <link rel="stylesheet" href="../../assets/style/styles2.css">
 </head>
 
 <body>
+    <header-after></header-after>
 
     <section class="cover-all search">
         <div class="row">
@@ -37,13 +39,142 @@
         <div class="prelative container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="filters">
-                        select option hapus
+                    <div class="filters d-flex">
+                        <div class="btn btn-filters d-flex align-items-center">
+                            <i class="fas fa-filter"></i>
+                            <p class="ml-1 mb-0">filters</p>
+                            <p class="number m-0">(4)</p>
+                        </div>
+                        <div class="input-group mb-3 most-relevant ml-2 col-4 d-none d-md-flex d-lg-flex d-xl-flex">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="inputGroupSelect01">
+                                    <i class="fas fa-filter"></i>
+                                </label>
+                            </div>
+                            <select class="custom-select" id="inputGroupSelect01">
+                                <option selected>Urutkan A - Z</option>
+                                <option value="1">Urutkan A - Z</option>
+                                <option value="2">Newest</option>
+                            </select>
+                        </div>
+                        <button class="btn btn-hapus-filter d-none d-md-flex d-lg-flex d-xl-flex">hapus filter</button>
+                        <p class="ml-auto">0 hasil</p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="filters-categorys">
-                        ini filters categorys
+                        <div class="card card-filter border-0">
+                            <div class="card-header text-bold text-white">
+                                GRADE
+                            </div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="grade" class="col-10 col-form-label">Primary School (SD)</label>
+                                        <div class="col-2 d-flex align-items-center justify-content-center">
+                                            <input class="p-0 m-0 form-check-input" type="checkbox" id="grade"
+                                                name="grade">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="grade" class="col-10 col-form-label">Junior High School
+                                            (SMP)</label>
+                                        <div class="col-2 d-flex align-items-center justify-content-center">
+                                            <input class="p-0 m-0 form-check-input" type="checkbox" id="grade"
+                                                name="grade">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="grade" class="col-10 col-form-label">Senior High School
+                                            (SMA)</label>
+                                        <div class="col-2 d-flex align-items-center justify-content-center">
+                                            <input class="p-0 m-0 form-check-input" type="checkbox" id="grade"
+                                                name="grade">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="grade" class="col-10 col-form-label">Higher School (PT)</label>
+                                        <div class="col-2 d-flex align-items-center justify-content-center">
+                                            <input class="p-0 m-0 form-check-input" type="checkbox" id="grade"
+                                                name="grade">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="grade" class="col-10 col-form-label">Other</label>
+                                        <div class="col-2 d-flex align-items-center justify-content-center">
+                                            <input class="p-0 m-0 form-check-input" type="checkbox" id="grade"
+                                                name="grade">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="card-header rounded-0 text-bold text-white">
+                                CATEGORI
+                            </div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="categori" class="col-10 col-form-label">Lesson</label>
+                                        <div class="col-2 d-flex align-items-center justify-content-center">
+                                            <input class="p-0 m-0 form-check-input" type="checkbox" id="categori"
+                                                name="categori">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="categori" class="col-10 col-form-label">Religion</label>
+                                        <div class="col-2 d-flex align-items-center justify-content-center">
+                                            <input class="p-0 m-0 form-check-input" type="checkbox" id="categori"
+                                                name="categori">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="categori" class="col-10 col-form-label">Softskills</label>
+                                        <div class="col-2 d-flex align-items-center justify-content-center">
+                                            <input class="p-0 m-0 form-check-input" type="checkbox" id="categori"
+                                                name="categori">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="categori" class="col-10 col-form-label">Pedagogics</label>
+                                        <div class="col-2 d-flex align-items-center justify-content-center">
+                                            <input class="p-0 m-0 form-check-input" type="checkbox" id="categori"
+                                                name="categori">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="categori" class="col-10 col-form-label">Other</label>
+                                        <div class="col-2 d-flex align-items-center justify-content-center">
+                                            <input class="p-0 m-0 form-check-input" type="checkbox" id="categori"
+                                                name="categori">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="card-header rounded-0 text-bold text-white d-block d-sm-none">
+                                SORT
+                            </div>
+                            <div class="card-body d-block d-sm-none">
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="sort" class="col-10 col-form-label">Urutkan A - Z</label>
+                                        <div class="col-2 d-flex align-items-center justify-content-center">
+                                            <input class="p-0 m-0 form-check-input" type="checkbox" id="sort"
+                                                name="sort">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="sort" class="col-10 col-form-label">News</label>
+                                        <div class="col-2 d-flex align-items-center justify-content-center">
+                                            <input class="p-0 m-0 form-check-input" type="checkbox" id="sort"
+                                                name="sort">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="card-body">
+                                <button class="btn-submit">SUBMIT</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-9">
@@ -57,6 +188,8 @@
         </div>
     </section>
 
+    <footer-component></footer-component>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
         integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
         crossorigin="anonymous"></script>
@@ -68,6 +201,9 @@
     </script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="../../assets/js/index.js"></script>
+    <script src="../../assets/js/bootstrap-drawer.js"></script>
+    <script src="../../assets/js/header.js"></script>
+    <script src="../../assets/js/footer.js"></script>
 </body>
 
 </html>

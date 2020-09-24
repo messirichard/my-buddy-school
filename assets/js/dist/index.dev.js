@@ -22,9 +22,3 @@ $('.buttonsss').click(function () {
   $siblings.removeClass('active');
   $this.addClass('active');
 });
-$(document).ready(function () {
-  $('.btn-toggle-sidebar').on('click', function (e) {
-    e.preventDefault();
-    $('#list-menu-sidebar').toggleClass('show');
-  });
-});
