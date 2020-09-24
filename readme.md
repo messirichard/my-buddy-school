@@ -15,7 +15,7 @@ Layouts html nya bisa diambil di folder /page/Layouts
 
   - Login
     https://my-buddy-school.vercel.app/page/Login/logins.html (S1P5) (Responsive done)
-    (email belum)
+    https://my-buddy-school.vercel.app/page/component/email.html (Responsive done)
 
   - Register
     https://my-buddy-school.vercel.app/page/Register/register.html (S1P8) (Responsive done)
