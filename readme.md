@@ -25,8 +25,8 @@ Layouts html nya bisa diambil di folder /page/Layouts
     https://my-buddy-school.vercel.app/page/ErrorPage (S1P16) (Responsive done)
 
   - Search page
-    https://my-buddy-school.vercel.app/page/Search/searchs.html (S1P20)
-    https://my-buddy-school.vercel.app/page/Search/not-found.html (S1P21)
+    https://my-buddy-school.vercel.app/page/Search/searchs.html (S1P20) (Responsive done)
+    https://my-buddy-school.vercel.app/page/Search/not-found.html (S1P21) (Responsive done)
 
   - All Course
     https://my-buddy-school.vercel.app/page/AllCourse (S1P24) (Responsive done)
