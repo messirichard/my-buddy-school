@@ -55,7 +55,7 @@ class HeaderAfter extends HTMLElement {
         </div>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light m-navbar">
-            <div class="container">
+            <div class="container headerss">
                 <a class="navbar-brand" href="#">
                     <img src="../../assets/img/logo-head.png" alt="logo">
                 </a>
@@ -120,7 +120,7 @@ class HeaderBefore extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
         <nav class="navbar navbar-expand-lg navbar-light bg-light m-navbar">
-        <div class="container">
+        <div class="container headerss">
             <a class="navbar-brand" href="#">
                 <img src="../../assets/img/logo-head.png" alt="logo">
             </a>
@@ -137,6 +137,44 @@ class HeaderBefore extends HTMLElement {
     `;
     }
 }
+class HeaderCourse extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        <div class="heads-covers">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light m-navbar">
+            <div class="container headerss">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    All Course <i class="far fa-chevron-down"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">All Course <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Primary School (SD)</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Junior High School (SMP)</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Senior High School (SMA)</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Higher School (PT)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Other</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>   
+    `;
+    }
+}
       
 customElements.define('header-after', HeaderAfter);
+customElements.define('header-course', HeaderCourse);
 customElements.define('header-before', HeaderBefore);
