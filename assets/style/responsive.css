@@ -153,6 +153,25 @@
     width: 155px;
     margin-bottom: 15px;
   }
+  .card.sidebar.border-0 {
+    margin-bottom: 30px;
+  }
+  .heads-covers .navbar button {
+    width: 100%;
+    text-align: left;
+    border: none;
+    color: #00a2e9;
+  }
+  .heads-covers .navbar button i {
+    float: right;
+  }
+  .heads-covers .navbar button:active,
+  .heads-covers .navbar button:focus,
+  .heads-covers .navbar button:hover {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
 }
 @media screen and (max-width: 380px) {
   .landing-sec-5 .prelative.container .box-content {

@@ -24,15 +24,15 @@ Layouts html nya bisa diambil di folder /page/Layouts
     https://my-buddy-school.vercel.app/page/ErrorPage (S1P16) (Responsive done)
 
   - Search page
-    https://my-buddy-school.vercel.app/page/Search/searchs.html (S1P20) belum buat filter category
-    https://my-buddy-school.vercel.app/page/Search/not-found.html (S1P21) belum buat filter category
+    https://my-buddy-school.vercel.app/page/Search/searchs.html (S1P20)
+    https://my-buddy-school.vercel.app/page/Search/not-found.html (S1P21)
 
   - All Course
     https://my-buddy-school.vercel.app/page/AllCourse (S1P24) (Responsive done)
 
   - Course by Grade
-    https://my-buddy-school.vercel.app/page/Course/gradeall.html (S1P26) belum buat sidebar
-    https://my-buddy-school.vercel.app/page/Course/gradecategory.html (S1P27) belum buat sidebar
+    https://my-buddy-school.vercel.app/page/Course/gradeall.html (S1P26) (Responsive done)
+    https://my-buddy-school.vercel.app/page/Course/gradecategory.html (S1P27) (Responsive done)
     https://my-buddy-school.vercel.app/page/Course/gradeallmitra.html (S1P28) (Responsive done)
     https://my-buddy-school.vercel.app/page/Course/gradedetailmitra.html (S1P29) (Responsive done)
     https://my-buddy-school.vercel.app/page/Course/gradealltutor.html (S1P30) (Responsive done)
