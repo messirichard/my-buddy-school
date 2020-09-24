@@ -172,6 +172,37 @@
     outline: none;
     box-shadow: none;
   }
+  .dashboard-sec-2 .prelative.container .courses h5,
+  .discussion h5 {
+    font-size: 24px;
+  }
+  .dashboard-sec-2 .prelative.container .courses .box-content .inss h4 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .dashboard-sec-2 .prelative.container .courses .box-content .inss h5 {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+  }
+  .discussion .discussion-box .inners .titles ul li .date {
+    display: none;
+  }
+  .discussion .discussion-box .inners .content p {
+    line-height: 24px;
+  }
+  .contents-courses .prelative.container .detail-tutors-content .context-tops {
+    height: auto;
+  }
+  .contents-courses .prelative.container .detail-tutors-content .context-tops .box-lefts {
+    width: 100%;
+  }
+  .contents-courses .prelative.container .detail-tutors-content .context-tops .box-lefts .sends {
+    width: 92%;
+  }
+  .contents-courses .prelative.container .detail-tutors-content .context-tops .box-right .bottoms .context a p {
+    display: none;
+  }
 }
 @media screen and (max-width: 380px) {
   .landing-sec-5 .prelative.container .box-content {
