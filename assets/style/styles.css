@@ -1673,3 +1673,80 @@ html {
   letter-spacing: 0.04em;
   color: #000000;
 }
+.dashboard-sec-1 {
+  background-image: url('../../assets/img/backs2.png');
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #EFF6FB;
+}
+.dashboard-sec-1 .prelative.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.dashboard-sec-1 .prelative.container .charts-box {
+  background: #ffffff;
+  padding: 25px;
+}
+.dashboard-sec-1 .prelative.container .charts-box .juduls {
+  margin-bottom: 20px;
+}
+.dashboard-sec-1 .prelative.container .charts-box .juduls h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #5C5C5C;
+}
+.dashboard-sec-1 .prelative.container .charts-box .chart img {
+  margin-bottom: 20px;
+}
+.dashboard-sec-1 .prelative.container .charts-box .box-content {
+  margin-bottom: 35px;
+}
+.dashboard-sec-1 .prelative.container .charts-box .box-content .texts {
+  margin-bottom: 25px;
+}
+.dashboard-sec-1 .prelative.container .charts-box .box-content .texts h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #5FC2ED;
+  margin-bottom: 5px;
+}
+.dashboard-sec-1 .prelative.container .charts-box .box-content .texts h6 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #5C5C5C;
+}
+.dashboard-sec-1 .prelative.container .charts-box .footerss {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+}
+.dashboard-sec-1 .prelative.container .charts-box .footerss .text2 {
+  text-align: center;
+}
+.dashboard-sec-1 .prelative.container .charts-box .footerss .text2 h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #5C5C5C;
+}
+.dashboard-sec-1 .prelative.container .charts-box .footerss .text2 p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #5C5C5C;
+}
