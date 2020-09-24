@@ -11,6 +11,7 @@ Layouts html nya bisa diambil di folder /page/Layouts
     https://my-buddy-school.vercel.app/page/ForgotPassword/message.html (S1P13) (Responsive done)
 
   - Dashboard
+    https://my-buddy-school.vercel.app/page/Dashboard (S1P18) (Responsive done)
 
   - Login
     https://my-buddy-school.vercel.app/page/Login/logins.html (S1P5) (Responsive done)
@@ -36,10 +37,4 @@ Layouts html nya bisa diambil di folder /page/Layouts
     https://my-buddy-school.vercel.app/page/Course/gradeallmitra.html (S1P28) (Responsive done)
     https://my-buddy-school.vercel.app/page/Course/gradedetailmitra.html (S1P29) (Responsive done)
     https://my-buddy-school.vercel.app/page/Course/gradealltutor.html (S1P30) (Responsive done)
-    https://my-buddy-school.vercel.app/page/Course/gradeprofiletutor.html (S1P31)
-
-  To task Today
-  - Responsive up to 80%
-  - Filter category (S1P20 & S1P21)
-  - Sidebars (S1P26 & S1P27)
-  - Dashboards
+    https://my-buddy-school.vercel.app/page/Course/gradeprofiletutor.html (S1P31) (Responsive done)
