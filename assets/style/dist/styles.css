@@ -1459,3 +1459,217 @@ html {
 .sidebar .list-group-item.active a {
   color: #00A2E9;
 }
+.dashboard-sec-2 {
+  background-image: url('../../assets/img/backs.png');
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #EFF6FB;
+}
+.dashboard-sec-2 .prelative.container .courses {
+  padding-top: 50px;
+}
+.dashboard-sec-2 .prelative.container .courses h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 22px;
+  align-items: center;
+  letter-spacing: -0.1px;
+  color: #5C5C5C;
+}
+.dashboard-sec-2 .prelative.container .courses h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  color: rgba(0, 162, 233, 0.87);
+  text-align: right;
+}
+.dashboard-sec-2 .prelative.container .courses .box-content {
+  margin: 30px 10px;
+  background: #fff;
+  margin-left: auto;
+}
+.dashboard-sec-2 .prelative.container .courses .box-content img {
+  width: 100%;
+}
+.dashboard-sec-2 .prelative.container .courses .box-content .inss {
+  padding: 20px 15px;
+}
+.dashboard-sec-2 .prelative.container .courses .box-content .inss h4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 24px;
+  color: #5C5C5C;
+}
+.dashboard-sec-2 .prelative.container .courses .box-content .inss h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  color: #00A2E9;
+  margin: 10px 0;
+}
+.dashboard-sec-2 .prelative.container .courses .box-content .inss h6 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #969696;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.dashboard-sec-2 .prelative.container .courses .box-content .inss .author img {
+  width: 24px;
+  display: inline;
+  top: 4px;
+  position: relative;
+}
+.dashboard-sec-2 .prelative.container .courses .box-content .inss .author .texts {
+  display: inline;
+  left: 15px;
+  position: relative;
+}
+.dashboard-sec-2 .prelative.container .courses .box-content .inss .author .texts h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #5C5C5C;
+}
+.dashboard-sec-2 .prelative.container .courses .box-content .inss .author .texts p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #969696;
+}
+.dashboard-sec-2 .prelative.container .courses .box-content .inss button.take {
+  background: linear-gradient(180deg, #00A2E9 0%, #5FC2ED 100%);
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.dashboard-sec-2 .prelative.container .courses .box-content .inss button.quit {
+  background: linear-gradient(180deg, #FF5E5B 0%, #FFA2A0 100%);
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.discussion {
+  padding-bottom: 50px;
+}
+.discussion h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 22px;
+  align-items: center;
+  letter-spacing: -0.1px;
+  color: #5C5C5C;
+  margin-bottom: 30px;
+}
+.discussion .discussion-box {
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+.discussion .discussion-box .inners {
+  padding: 25px;
+}
+.discussion .discussion-box .inners .titles ul {
+  list-style: none;
+  padding-left: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 25px;
+}
+.discussion .discussion-box .inners .titles ul li {
+  display: inline-block;
+}
+.discussion .discussion-box .inners .titles ul li .conts {
+  margin: 0 20px;
+  top: 10px;
+  position: relative;
+}
+.discussion .discussion-box .inners .titles ul li .conts h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #00A2E9;
+}
+.discussion .discussion-box .inners .titles ul li .conts h6 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.4);
+}
+.discussion .discussion-box .inners .titles ul li .date {
+  top: -10px;
+  position: relative;
+}
+.discussion .discussion-box .inners .titles ul li .date p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.4);
+}
+.discussion .discussion-box .inners .content h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.discussion .discussion-box .inners .content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+  color: #000000;
+}
+.discussion .discussion-box .responses {
+  background: #f9f9f9;
+}
+.discussion .discussion-box .responses .inst {
+  padding-left: 25px;
+}
+.discussion .discussion-box .responses .inst p {
+  margin: 15px 0;
+}
+.discussion .discussion-box .responses .inst p a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
