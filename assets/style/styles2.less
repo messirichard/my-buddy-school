@@ -104,7 +104,6 @@
         }
     }
     .list-group-item {
-        padding: .75rem 1rem;
         font-family: 'Nunito Sans';
         font-weight: bold;
         color: #5C5C5C;
@@ -116,6 +115,18 @@
         .dropdown-toggle::after{
             color: #00A2E9;
         }
+        .btn-toggle-sidebar {
+            display: none;
+        }
+        .link-all {
+            width: 100%;
+        }
+    }
+    .list-group.show {
+        min-height: 293px;
+    }
+    .list-group {
+        transition: .3s;
     }
     .list-group-item.active {
         color: #00A2E9;
@@ -138,4 +149,30 @@
 }
 body {
     background: #EFF6FB;
+}
+
+@phone:   ~"only screen and (max-width: 576px)";
+
+@media @phone {
+  .sidebar {
+      .list-group {
+        height: 49px;
+        overflow: hidden;
+        .list-group-item {
+            .link-all {
+                width: 90%;
+            }
+            .btn-toggle-sidebar {
+                background: white;
+                font-size: 15px;
+            }
+            .btn-toggle-sidebar.hide {
+                display: none;
+            }
+            .btn-toggle-sidebar.show {
+                display: block;
+            }
+        }
+      }
+  }
 }
