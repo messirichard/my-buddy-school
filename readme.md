@@ -1,7 +1,7 @@
 Nabvar Header dan Footer saya buatkan Web-component agar di halaman lain tidak numpuk hal yang sama
 Layouts html nya bisa diambil di folder /page/Layouts <br>
 
---Sprint 1 Folder \
+-Sprint 1 Folder \
   AllCourse \
   component \
   Course \
@@ -51,3 +51,40 @@ Layouts html nya bisa diambil di folder /page/Layouts <br>
     https://my-buddy-school.vercel.app/page/Course/gradedetailmitra.html (S1P29) (Responsive done) \
     https://my-buddy-school.vercel.app/page/Course/gradealltutor.html (S1P30) (Responsive done) \
     https://my-buddy-school.vercel.app/page/Course/gradeprofiletutor.html (S1P31) (Responsive done)
+
+
+
+
+-Sprint 2 Folder \
+  DetailCourse \
+  Discussion \
+  Leaderboard \
+  LearnCourse \
+  Quiz \
+  Zoom
+
+-- Links <br>
+  - DetailCourse \
+    https://my-buddy-school.vercel.app/page/DetailCourse/taken.html (S2P1) \
+    https://my-buddy-school.vercel.app/page/untaken.html (S2P2)
+
+  - Discussion \
+    https://my-buddy-school.vercel.app/page/Discussion/detail.html (S2P7) \
+    https://my-buddy-school.vercel.app/page/list.html (S2P8)
+
+  - Leaderboard \
+    https://my-buddy-school.vercel.app/page/Leaderboard/leaderboard.html (S2P19)
+
+  - LearnCourse \
+    https://my-buddy-school.vercel.app/page/detail.html (S2P5)
+
+  - Quiz \
+    https://my-buddy-school.vercel.app/page/list.html (S2P11) \
+    https://my-buddy-school.vercel.app/page/intro.html (S2P12) \
+    https://my-buddy-school.vercel.app/page/board.html (S2P13 (Without Image)) \
+    https://my-buddy-school.vercel.app/page/boardimage.html (S2P13 (With Image)) \
+    https://my-buddy-school.vercel.app/page/popup.html (S2P14)
+
+  - Zoom \
+    https://my-buddy-school.vercel.app/page/Zoom/join.html (S2P21) \
+    https://my-buddy-school.vercel.app/page/Zoom/empty.html (S2P22)
