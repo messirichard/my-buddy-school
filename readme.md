@@ -2,17 +2,17 @@ Nabvar Header dan Footer saya buatkan Web-component agar di halaman lain tidak n
 Layouts html nya bisa diambil di folder /page/Layouts <br>
 
 -Sprint 1 Folder \
-  AllCourse \
-  component \
-  Course \
-  Dashboard \
-  ErrorPage \
-  ForgotPassword \
-  LandingPage \
-  Layouts \
-  Login \
-  Register \
-  Search 
+  - AllCourse \
+  - component \
+  - Course \
+  - Dashboard \
+  - ErrorPage \
+  - ForgotPassword \
+  - LandingPage \
+  - Layouts \
+  - Login \
+  - Register \
+  - Search 
 
 -- Links <br>
   - LandingPage \
@@ -56,12 +56,12 @@ Layouts html nya bisa diambil di folder /page/Layouts <br>
 
 
 -Sprint 2 Folder \
-  DetailCourse \
-  Discussion \
-  Leaderboard \
-  LearnCourse \
-  Quiz \
-  Zoom
+  - DetailCourse \
+  - Discussion \
+  - Leaderboard \
+  - LearnCourse \
+  - Quiz \
+  - Zoom
 
 -- Links <br>
   - DetailCourse \
