@@ -50,10 +50,7 @@ Layouts html nya bisa diambil di folder /page/Layouts <br>
     https://my-buddy-school.vercel.app/page/Course/gradeallmitra.html (S1P28) (Responsive done) \
     https://my-buddy-school.vercel.app/page/Course/gradedetailmitra.html (S1P29) (Responsive done) \
     https://my-buddy-school.vercel.app/page/Course/gradealltutor.html (S1P30) (Responsive done) \
-    https://my-buddy-school.vercel.app/page/Course/gradeprofiletutor.html (S1P31) (Responsive done)
-
-
-
+    https://my-buddy-school.vercel.app/page/Course/gradeprofiletutor.html (S1P31) (Responsive done)  <br> <br> <br>
 
 --- Sprint 2 Folder
   - DetailCourse
