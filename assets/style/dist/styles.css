@@ -2093,33 +2093,6 @@ div#ModalQuit .modal-content .modal-footer button.confirms {
   line-height: 16px;
   color: #969696;
 }
-.courses-insides .prelative.container .inner .box-contents-right .inss .after-author {
-  border-top: #e4e4e4 1px solid;
-}
-.courses-insides .prelative.container .inner .box-contents-right .inss .after-author ul {
-  padding-left: 0;
-}
-.courses-insides .prelative.container .inner .box-contents-right .inss .after-author ul li {
-  list-style: none;
-  margin-top: 25px;
-}
-.courses-insides .prelative.container .inner .box-contents-right .inss .after-author ul li a {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: -0.1px;
-  color: #98999A;
-}
-.courses-insides .prelative.container .inner .box-contents-right .inss .after-author ul li a span img {
-  top: -2px;
-  position: relative;
-  width: 20px;
-  margin-right: 12px;
-}
-.courses-insides .prelative.container .inner .box-contents-right .inss .after-author ul li .active {
-  color: #00a2e9;
-}
 .courses-insides .prelative.container .inner .box-contents-right .inss button.take {
   background: linear-gradient(180deg, #00A2E9 0%, #5FC2ED 100%);
   border-radius: 5px;
