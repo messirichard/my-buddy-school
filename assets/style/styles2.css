@@ -1,0 +1,10 @@
+.btn-toggle-sidebar {
+  background: #ffffff;
+  display: none;
+}
+#list-menu-sidebar {
+  transition: 0.3s;
+}
+#list-menu-sidebar.show {
+  height: max-content;
+}

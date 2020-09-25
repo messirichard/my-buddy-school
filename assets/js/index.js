@@ -26,3 +26,8 @@ $('.buttonsss').click(function () {
     $this.addClass('active');
 })
 
+$('.btn-toggle-sidebar').click(function(){
+    $('#list-menu-sidebar').toggleClass('show')
+    $('.btn-show').toggleClass('show');
+    $('.btn-hide').toggleClass('show')
+})
