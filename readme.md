@@ -1,7 +1,7 @@
 Nabvar Header dan Footer saya buatkan Web-component agar di halaman lain tidak numpuk hal yang sama
 Layouts html nya bisa diambil di folder /page/Layouts <br>
 
-- Sprint 1 Folder
+--- Sprint 1 Folder
   - AllCourse
   - component
   - Course
@@ -55,7 +55,7 @@ Layouts html nya bisa diambil di folder /page/Layouts <br>
 
 
 
-- Sprint 2 Folder
+--- Sprint 2 Folder
   - DetailCourse
   - Discussion
   - Leaderboard
