@@ -1862,3 +1862,13 @@ div#ModalQuit .modal-content .modal-footer button.confirms {
   line-height: 19px;
   color: #FFFFFF;
 }
+.btn-toggle-sidebar {
+  background: #ffffff;
+  display: none;
+}
+#list-menu-sidebar {
+  transition: 0.3s;
+}
+#list-menu-sidebar.show {
+  height: max-content;
+}
