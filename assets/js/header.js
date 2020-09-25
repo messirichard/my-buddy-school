@@ -11,7 +11,7 @@ class HeaderAfter extends HTMLElement {
                 <div class="drawer-body">
                     <form class="form-inline my-2 my-lg-0 search-form">
                         <div class="input-group w-100">
-                            <input type="text" class="form-control input-search" placeholder="reading" name="key">
+                            <input type="text" class="form-control input-search" placeholder="Search" name="key">
                             <div class="input-group-append">
                                 <button class="btn-search">
                                     <img src="../../assets/img/search.png" alt="">
@@ -54,7 +54,7 @@ class HeaderAfter extends HTMLElement {
             </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light m-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light m-navbar">
             <div class="container headerss">
                 <a class="navbar-brand" href="#">
                     <img src="../../assets/img/logo-head.png" alt="logo">
@@ -76,7 +76,7 @@ class HeaderAfter extends HTMLElement {
 
                         <form class="form-inline my-2 my-lg-0 search-form">
                             <div class="input-group w-100">
-                                <input type="text" class="form-control input-search" placeholder="reading" name="key">
+                                <input type="text" class="form-control input-search" placeholder="Search" name="key">
                                 <div class="input-group-append">
                                     <button class="btn-search">
                                         <img src="../../assets/img/search.png" alt="">
@@ -141,7 +141,7 @@ class HeaderCourse extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <div class="heads-covers">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light m-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light m-navbar">
             <div class="container headerss">
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"

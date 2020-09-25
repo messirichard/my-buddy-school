@@ -3,6 +3,7 @@
 
 
 @font: 'Nunito Sans', sans-serif;
+@roboto: 'Roboto', sans-serif;
 @white: #fff;
 @color-backs: #EFF6FB;
 
@@ -62,21 +63,33 @@ html {
     max-width: 100%;
 }
 
+ul.navbar-nav.mr-auto{
+    li.nav-item {
+        padding: 20px;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+    font-weight: 700;
+}
+
 .navbar {
     z-index: 1;
-    background: #FEFEFE;
+    height: 72px;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
 
     .navbar-brand img {
-        height: 30px;
+        height: 40px;
     }
 
     .btn-signin {
         background: #00A2E9;
         border-radius: 22.5px;
-        color: #fff;
+        color: rgb(231, 210, 210);
         font-size: 15px;
-        padding: 5px 15px !important;
+        padding: 10px 25px !important;
+        font-family: @roboto;
     }
 
     .btn-signup {
@@ -84,8 +97,10 @@ html {
         border: 1px solid #00A2E9;
         box-sizing: border-box;
         border-radius: 22.5px;
-        padding: 5px 15px !important;
         color: #00A2E9 !important;
+        font-size: 15px;
+        padding: 10px 25px !important;
+        font-family: @roboto;
     }
 
     .badge-mail {
@@ -136,14 +151,8 @@ html {
         font-weight: bold;
     }
 
-    .dropdown-menu {
-        .dropdown-item {
-            .text-bold
-        }
-    }
-
     li.nav-item.dropdown {
-        margin-left: 15px;
+        margin-left: 60px;
     }
 }
 
@@ -155,7 +164,7 @@ html {
 
 
 .heads-covers {
-    background-color: #e5e5e5;
+    background-color: #F7F8FA;
 
     nav.navbar {
         div#navbarSupportedContent {
@@ -196,6 +205,12 @@ html {
     background: #DFE8F0;
     box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.05);
 
+    .logo{
+        img{
+            height: 48px;
+        }
+    }
+
     .about-us {
         color: #5C5C5C;
         font-size: 15px;
@@ -209,6 +224,8 @@ html {
             border: 1px solid #E4E4E4;
             box-sizing: border-box;
             border-radius: 6px;
+            width: 38px;
+            height: 38px;
 
             .link {
                 color: #B9B9B9;
@@ -221,15 +238,30 @@ html {
         list-style: none;
 
         .item {
+            margin-bottom: 6px;
             a {
                 color: #5C5C5C;
             }
+        }
+        .item.text-bold{
+            font-weight: 700;
+            margin-bottom: 10px;
         }
     }
 }
 
 .footer {
     background-color: #6A8FA3;
+    p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: -0.1px;
+        color: #FFFFFF;
+        top: 1px;
+        position: relative;
+    }
 }
 
 .landing-sec-1 {
@@ -323,7 +355,7 @@ html {
     background-color: @color-backs;
 
     .prelative.container {
-        padding-top: 50px;
+        padding-top: 120px;
         padding-bottom: 75px;
 
         .box-content {
@@ -415,8 +447,8 @@ html {
     background-color: @color-backs;
 
     .prelative.container {
-        padding-top: 100px;
-        padding-bottom: 75px;
+            padding-top: 120px;
+            padding-bottom: 120px;
 
         .title {
             h5 {
@@ -1246,6 +1278,17 @@ html {
                     padding-left: 20px;
                 }
 
+                input[type="email"] {
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                }
+
+                input[type="password"]{
+                    border-top: 1px solid rgba(0, 162, 233, 0.2);
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                }
+
                 a {
                     p {
                         margin-top: 15px;
@@ -1332,6 +1375,18 @@ html {
                     box-shadow: 0px 4px 40px rgba(0, 162, 233, 0.1);
                     line-height: normal;
                     padding-left: 20px;
+                    border-top: 1px solid rgba(0, 162, 233, 0.2);
+                }
+
+                input[type="text"] {
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                    border:none;
+                }
+
+                input.lasts {
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;
                 }
 
                 a {
@@ -1365,6 +1420,7 @@ html {
         font-size: 16px;
         line-height: 19px;
         color: #FFFFFF;
+        font-family: @roboto;
     }
 }
 
@@ -1566,6 +1622,7 @@ html {
     .prelative.container {
         .courses {
             padding-top: 50px;
+            border-bottom: 1px solid #E4E4E4;
 
             h5 {
                 font-style: normal;
@@ -1591,6 +1648,8 @@ html {
                 margin: 30px 10px;
                 background: #fff;
                 margin-left: auto;
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+                border-radius: 5px;
 
                 img {
                     width: 100%;
@@ -1628,6 +1687,7 @@ html {
                     }
 
                     .author {
+                        border-top: #e4e4e4;
                         img {
                             width: 24px;
                             display: inline;
@@ -1639,6 +1699,7 @@ html {
                             display: inline;
                             left: 15px;
                             position: relative;
+                            top: 2px;
 
                             h3 {
                                 font-style: normal;
@@ -1696,6 +1757,7 @@ html {
 
 .discussion {
     padding-bottom: 50px;
+    margin-top: 35px;
 
     h5 {
         font-style: normal;
@@ -1713,6 +1775,8 @@ html {
         box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
         border-radius: 8px;
         margin-bottom: 50px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
 
         .inners {
             padding: 25px;
@@ -1793,6 +1857,9 @@ html {
 
         .responses {
             background: #f9f9f9;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+
 
             .inst {
                 padding-left: 25px;

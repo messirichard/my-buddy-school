@@ -227,28 +227,38 @@ html {
 .container.headerss {
   max-width: 100%;
 }
+ul.navbar-nav.mr-auto li.nav-item {
+  padding: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-weight: 700;
+}
 .navbar {
   z-index: 1;
-  background: #FEFEFE;
+  height: 72px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
 }
 .navbar .navbar-brand img {
-  height: 30px;
+  height: 40px;
 }
 .navbar .btn-signin {
   background: #00A2E9;
   border-radius: 22.5px;
-  color: #fff;
+  color: #e7d2d2;
   font-size: 15px;
-  padding: 5px 15px !important;
+  padding: 10px 25px !important;
+  font-family: 'Roboto', sans-serif;
 }
 .navbar .btn-signup {
   background: #FFFFFF;
   border: 1px solid #00A2E9;
   box-sizing: border-box;
   border-radius: 22.5px;
-  padding: 5px 15px !important;
   color: #00A2E9 !important;
+  font-size: 15px;
+  padding: 10px 25px !important;
+  font-family: 'Roboto', sans-serif;
 }
 .navbar .badge-mail {
   background-color: #FF8A00 !important;
@@ -287,12 +297,8 @@ html {
   font-family: 'Nunito Sans';
   font-weight: bold;
 }
-.navbar .dropdown-menu .dropdown-item {
-  font-family: 'Nunito Sans';
-  font-weight: bold;
-}
 .navbar li.nav-item.dropdown {
-  margin-left: 15px;
+  margin-left: 60px;
 }
 .img-fit {
   width: 40px;
@@ -300,7 +306,7 @@ html {
   object-fit: cover;
 }
 .heads-covers {
-  background-color: #e5e5e5;
+  background-color: #F7F8FA;
 }
 .heads-covers nav.navbar div#navbarSupportedContent ul {
   margin: 0 auto;
@@ -329,6 +335,9 @@ html {
   background: #DFE8F0;
   box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.05);
 }
+.pref-footer .logo img {
+  height: 48px;
+}
 .pref-footer .about-us {
   color: #5C5C5C;
   font-size: 15px;
@@ -341,6 +350,8 @@ html {
   border: 1px solid #E4E4E4;
   box-sizing: border-box;
   border-radius: 6px;
+  width: 38px;
+  height: 38px;
 }
 .pref-footer .social-media .item .link {
   color: #B9B9B9;
@@ -349,11 +360,28 @@ html {
   color: #5C5C5C;
   list-style: none;
 }
+.pref-footer .footer-link .item {
+  margin-bottom: 6px;
+}
 .pref-footer .footer-link .item a {
   color: #5C5C5C;
 }
+.pref-footer .footer-link .item.text-bold {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 .footer {
   background-color: #6A8FA3;
+}
+.footer p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #FFFFFF;
+  top: 1px;
+  position: relative;
 }
 .landing-sec-1 {
   background-color: #EFF6FB;
@@ -432,7 +460,7 @@ html {
   background-color: #EFF6FB;
 }
 .landing-sec-3 .prelative.container {
-  padding-top: 50px;
+  padding-top: 120px;
   padding-bottom: 75px;
 }
 .landing-sec-3 .prelative.container .box-content {
@@ -510,8 +538,8 @@ html {
   background-color: #EFF6FB;
 }
 .landing-sec-5 .prelative.container {
-  padding-top: 100px;
-  padding-bottom: 75px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .landing-sec-5 .prelative.container .title h5 {
   font-style: normal;
@@ -1209,6 +1237,15 @@ html {
   line-height: normal;
   padding-left: 20px;
 }
+.form-alls .contents-login .inners .box-context input[type="email"] {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.form-alls .contents-login .inners .box-context input[type="password"] {
+  border-top: 1px solid rgba(0, 162, 233, 0.2);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 .form-alls .contents-login .inners .box-context a p {
   margin-top: 15px;
   font-style: normal;
@@ -1277,6 +1314,16 @@ html {
   box-shadow: 0px 4px 40px rgba(0, 162, 233, 0.1);
   line-height: normal;
   padding-left: 20px;
+  border-top: 1px solid rgba(0, 162, 233, 0.2);
+}
+.form-alls .contents-regist .inners .box-context input[type="text"] {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: none;
+}
+.form-alls .contents-regist .inners .box-context input.lasts {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .form-alls .contents-regist .inners .box-context a p {
   margin-top: 15px;
@@ -1302,6 +1349,7 @@ html {
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
 }
 .contents-courses.details-mitra {
   background-image: url('../../assets/img/framesdet.png');
@@ -1470,6 +1518,7 @@ html {
 }
 .dashboard-sec-2 .prelative.container .courses {
   padding-top: 50px;
+  border-bottom: 1px solid #E4E4E4;
 }
 .dashboard-sec-2 .prelative.container .courses h5 {
   font-style: normal;
@@ -1493,6 +1542,8 @@ html {
   margin: 30px 10px;
   background: #fff;
   margin-left: auto;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
 }
 .dashboard-sec-2 .prelative.container .courses .box-content img {
   width: 100%;
@@ -1525,6 +1576,9 @@ html {
   margin-bottom: 20px;
   text-align: left;
 }
+.dashboard-sec-2 .prelative.container .courses .box-content .inss .author {
+  border-top: #e4e4e4;
+}
 .dashboard-sec-2 .prelative.container .courses .box-content .inss .author img {
   width: 24px;
   display: inline;
@@ -1535,6 +1589,7 @@ html {
   display: inline;
   left: 15px;
   position: relative;
+  top: 2px;
 }
 .dashboard-sec-2 .prelative.container .courses .box-content .inss .author .texts h3 {
   font-style: normal;
@@ -1581,6 +1636,7 @@ html {
 }
 .discussion {
   padding-bottom: 50px;
+  margin-top: 35px;
 }
 .discussion h5 {
   font-style: normal;
@@ -1597,6 +1653,8 @@ html {
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin-bottom: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .discussion .discussion-box .inners {
   padding: 25px;
@@ -1660,6 +1718,8 @@ html {
 }
 .discussion .discussion-box .responses {
   background: #f9f9f9;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .discussion .discussion-box .responses .inst {
   padding-left: 25px;
