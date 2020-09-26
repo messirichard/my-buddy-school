@@ -1,4 +1,22 @@
 @media screen and (max-width: 450px) {
+  .detail-cours .btn-start-quiz {
+    width: 100%;
+    box-shadow: 0px 4px 40px rgba(0, 162, 233, 0.2);
+  }
+  .detail-cours .btn-download-pembahasan {
+    box-shadow: 0px 4px 40px rgba(0, 162, 233, 0.2);
+    width: 100%;
+  }
+  .detail-cours .btn-quiz {
+    flex-direction: column;
+    border: 1px solid #E4E4E4;
+  }
+  #collapseMenu {
+    display: none;
+  }
+  #collapseMenu.show {
+    display: block;
+  }
   .landing-sec-1 {
     max-height: 360px;
   }
