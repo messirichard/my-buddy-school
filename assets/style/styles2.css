@@ -34,28 +34,6 @@
   font-weight: bold;
   margin-bottom: 15px;
 }
-.box-content .content {
-  color: #5C5C5C;
-  font-size: 15px;
-}
-.box-content .content .list-content .item {
-  background: #FFFFFF;
-  border: 0.5px solid #5FC2ED;
-  box-sizing: border-box;
-  padding: 15px 20px;
-}
-.box-content .content .list-content .item.quiz {
-  color: #00A2E9;
-  font-weight: bold;
-}
-.box-content .content .list-content .item.quiz.answer {
-  background: #E4E4E4;
-  border-radius: 5px;
-}
-.box-content .content .score {
-  color: #00A2E9;
-  font-weight: bold;
-}
 .box-content .content-materi {
   background: #FFFFFF;
   border: 1px solid #5FC2ED;
@@ -80,11 +58,6 @@
   padding: 6px 25px;
   min-width: 200px;
   margin-left: 10px;
-}
-.courses-insides {
-  background: url(../img/backs.png);
-  background-position: bottom;
-  background-repeat: no-repeat;
 }
 .box-contents-right.taken {
   background: #FFFFFF;

@@ -241,6 +241,17 @@
   .sidebar .list-group .list-group-item .btn-toggle-sidebar.show {
     display: block;
   }
+  .courses-insides .prelative.container .inner .box-contents-right.taken,
+  .courses-insides .prelative.container .inner .box-contents-right.untaken {
+    top: 0;
+    margin-bottom: 40px;
+  }
+  .courses-insides .prelative.container .inner .box-content .content-desc ul li a p {
+    font-size: 15px;
+  }
+  .courses-insides .prelative.container .inner .box-content .overview {
+    margin-bottom: 50px;
+  }
 }
 @media screen and (max-width: 380px) {
   .landing-sec-5 .prelative.container .box-content {

@@ -73,14 +73,14 @@ Layouts html nya bisa diambil di folder /page/Layouts <br>
     https://my-buddy-school.vercel.app/page/Leaderboard/leaderboard.html (S2P19)
 
   - LearnCourse \
-    https://my-buddy-school.vercel.app/page/detail.html (S2P5)
+    https://my-buddy-school.vercel.app/page/LearnCourse/detail.html (S2P5)
 
   - Quiz \
-    https://my-buddy-school.vercel.app/page/list.html (S2P11) \
-    https://my-buddy-school.vercel.app/page/intro.html (S2P12) \
-    https://my-buddy-school.vercel.app/page/board.html (S2P13 (Without Image)) \
-    https://my-buddy-school.vercel.app/page/boardimage.html (S2P13 (With Image)) \
-    https://my-buddy-school.vercel.app/page/popup.html (S2P14)
+    https://my-buddy-school.vercel.app/page/Quiz/list.html (S2P11) \
+    https://my-buddy-school.vercel.app/page/Quiz/intro.html (S2P12) \
+    https://my-buddy-school.vercel.app/page/Quiz/board.html (S2P13 (Without Image)) \
+    https://my-buddy-school.vercel.app/page/Quiz/boardimage.html (S2P13 (With Image)) \
+    https://my-buddy-school.vercel.app/page/Quiz/popup.html (S2P14)
 
   - Zoom \
     https://my-buddy-school.vercel.app/page/Zoom/join.html (S2P21) \
