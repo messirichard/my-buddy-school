@@ -2521,6 +2521,9 @@ div#ModalQuit .modal-content .modal-footer button.confirms {
   color: #5C5C5C;
   margin-bottom: 40px;
 }
+.courses-insides .prelative.container .inner .box-content.quiz-intro .overview .btn-quiz button {
+  width: 225px;
+}
 .courses-insides .prelative.container .inner .box-content.quiz-intro .overview .btn-quiz .btn-start-quiz {
   max-width: 250px;
   height: 40px;
@@ -2531,6 +2534,7 @@ div#ModalQuit .modal-content .modal-footer button.confirms {
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: capitalize;
+  margin-right: 25px;
   color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
   background: linear-gradient(180deg, #00A2E9 0%, #5FC2ED 100%);
