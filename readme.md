@@ -63,7 +63,7 @@ Layouts html nya bisa diambil di folder /page/Layouts <br>
 -- Links <br>
   - DetailCourse \
     https://my-buddy-school.vercel.app/page/DetailCourse/taken.html (S2P1) (Responsive done) \
-    https://my-buddy-school.vercel.app/page/untaken.html (S2P2) (Responsive done)
+    https://my-buddy-school.vercel.app/page/DetailCourse/untaken.html (S2P2) (Responsive done)
 
   - Discussion \
     https://my-buddy-school.vercel.app/page/Discussion/detail.html (S2P7) (Responsive done) \
