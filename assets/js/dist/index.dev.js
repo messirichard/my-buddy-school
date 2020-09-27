@@ -27,6 +27,12 @@ $('.btn-toggle-sidebar').click(function () {
   $('.btn-show').toggleClass('show');
   $('.btn-hide').toggleClass('show');
 });
+$(document).ready(function () {
+  $('.btn-toggle-collapse').click(function (e) {
+    e.preventDefault();
+    $('.collapse-menu').toggleClass('show');
+  });
+});
 
 function buttonFunction(btn) {
   btn.style.backgroundColor = "#B1DAFF";

@@ -3569,3 +3569,42 @@ div#exampleModalQuiz {
         }
     }
 }
+
+.after-author {
+    ul {
+        list-style: none;
+        padding: 0;
+        transition: .3s !important;
+
+        a {
+            display: flex;
+            padding: 8px 15px;
+            color: #98999A;
+            font-weight: bold;
+            padding-left: 0;
+
+            .btn-toggle-collapse {
+                display: none;
+                background-color: #ffffff;
+            }
+        }
+
+        a.active {
+            color: #00A2E9;
+        }
+    }
+    .collapse-menu {
+        .btn-toggle-collapse {
+            display: block;
+            width: 100%;
+            background: transparent;
+            padding-left: 0;
+            a{
+                padding-left: 0;
+            }
+            i.fas.fa-chevron-down{
+                display: none;
+            }
+        }
+    }
+}

@@ -5,6 +5,11 @@
   }
   .after-author .collapse-menu .btn-toggle-collapse {
     display: block;
+    width: 100%;
+    background: transparent;
+  }
+  .after-author .collapse-menu .btn-toggle-collapse i.fas.fa-chevron-down {
+    display: inline;
   }
   .after-author .collapse-menu.show {
     height: 200px;
@@ -187,11 +192,18 @@
   .card.sidebar.border-0 {
     margin-bottom: 30px;
   }
+  .heads-covers .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
   .heads-covers .navbar button {
     width: 100%;
     text-align: left;
     border: none;
-    color: #00a2e9;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
+    color: #00A2E9;
   }
   .heads-covers .navbar button i {
     float: right;

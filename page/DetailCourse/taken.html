@@ -144,6 +144,7 @@
                                 <div class="after-author">
                                     <ul class="collapse-menu">
                                         <li>
+                                            <button class="btn-toggle-collapse">
                                             <a href="#" class="active d-flex align-items-center justify-content-between">
                                                 <div class="menu d-flex align-items-center">
                                                     <span class="mr-2">
@@ -151,10 +152,9 @@
                                                     </span>
                                                     Learn Course
                                                 </div>
-                                                <button class="btn-toggle-collapse">
                                                     <i class="fas fa-chevron-down"></i>
-                                                </button>
-                                            </a>
+                                                </a>
+                                            </button>
                                         </li>
                                         <li>
                                             <a href="#">
@@ -217,15 +217,6 @@
     <script src="../../assets/js/header.js"></script>
     <script src="../../assets/js/footer.js"></script>
     <script src="../../assets/js/modals.js"></script>
-
-    <script>
-        $(document).ready(function(){
-            $('.btn-toggle-collapse').click(function(e){
-                e.preventDefault();
-                $('.collapse-menu').toggleClass('show')
-            })
-        })
-    </script>
 
 </body>
 
