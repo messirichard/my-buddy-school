@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 @font: 'Nunito Sans', sans-serif;
@@ -1826,110 +1826,342 @@ ul.navbar-nav.mr-auto {
         margin-bottom: 30px;
     }
 
-    .discussion-box {
-        background: #FFFFFF;
-        box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
-        margin-bottom: 50px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+}
 
-        .inners {
-            padding: 25px;
+.discussion-box {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
-            .titles {
-                ul {
-                    list-style: none;
-                    padding-left: 0;
-                    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-                    padding-bottom: 25px;
+    .inners {
+        padding: 25px;
 
-                    li {
-                        display: inline-block;
+        .titles {
+            ul {
+                list-style: none;
+                padding-left: 0;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                padding-bottom: 25px;
 
-                        .images {}
+                li {
+                    display: inline-block;
 
-                        .conts {
-                            margin: 0 20px;
-                            top: 10px;
-                            position: relative;
+                    .images.img {
+                        width: 54px;
+                    }
 
-                            h4 {
-                                font-style: normal;
-                                font-weight: bold;
-                                font-size: 18px;
-                                line-height: 25px;
-                                letter-spacing: 0.04em;
-                                color: #00A2E9;
-                            }
+                    .conts {
+                        margin: 0 20px;
+                        top: 14px;
+                        position: relative;
 
-                            h6 {
-                                font-style: normal;
-                                font-weight: 300;
-                                font-size: 14px;
-                                line-height: 19px;
-                                letter-spacing: 0.04em;
-                                color: rgba(0, 0, 0, 0.4);
-                            }
+                        h4 {
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 18px;
+                            line-height: 25px;
+                            letter-spacing: 0.04em;
+                            color: #00A2E9;
                         }
 
-                        .date {
-                            top: -10px;
-                            position: relative;
+                        h6 {
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 14px;
+                            line-height: 19px;
+                            letter-spacing: 0.04em;
+                            color: rgba(0, 0, 0, 0.4);
+                        }
+                    }
 
-                            p {
-                                font-style: normal;
-                                font-weight: 300;
-                                font-size: 14px;
-                                line-height: 19px;
-                                letter-spacing: 0.04em;
-                                color: rgba(0, 0, 0, 0.4);
-                            }
+                    .date {
+                        top: -10px;
+                        position: relative;
+
+                        p {
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 14px;
+                            line-height: 19px;
+                            letter-spacing: 0.04em;
+                            color: rgba(0, 0, 0, 0.4);
                         }
                     }
                 }
             }
-
-            .content {
-                h5 {
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 16px;
-                    line-height: 32px;
-                    color: #000000;
-                    margin-bottom: 5px;
-                }
-
-                p {
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 14px;
-                    line-height: 32px;
-                    color: #000000;
-
-                }
-            }
         }
 
-        .responses {
-            background: #f9f9f9;
-            border-bottom-left-radius: 10px;
-            border-bottom-right-radius: 10px;
+        .content {
+            h5 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 32px;
+                color: #5c5c5c;
+                margin-bottom: 5px;
+            }
+
+            p {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 32px;
+                color: #5c5c5c;
+
+            }
+        }
+    }
+
+    .responses {
+        background: #f9f9f9;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
 
 
-            .inst {
-                padding-left: 25px;
+        .inst {
+            .accordion#faq {
+                .card-header {
+                    border: 0;
+                    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+                    box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+                    border-radius: 2px;
+                    padding: 0;
+                }
 
-                p {
-                    margin: 15px 0;
+                .card-header .btn-header-link {
+                    color: #fff;
+                    display: block;
+                    text-align: left;
+                    background: #F9F9F9;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 19px;
+                    letter-spacing: 0.04em;
+                    color: #000000;
+                    padding: 20px 20px 20px 25px;
+                }
 
-                    a {
-                        font-style: normal;
-                        font-weight: bold;
-                        font-size: 14px;
-                        line-height: 19px;
-                        letter-spacing: 0.04em;
-                        color: #000000;
+                .card-header .btn-header-link:after {
+                    content: "\f107";
+                    font-family: 'Font Awesome 5 Pro';
+                    font-weight: 900;
+                    float: right;
+                }
+
+                .card-header .btn-header-link.collapsed {
+                    background: #F9F9F9;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 19px;
+                    /* identical to box height */
+
+                    letter-spacing: 0.04em;
+
+                    color: #5C5C5C;
+                }
+
+                .card-header .btn-header-link.collapsed:after {
+                    content: "\f106";
+                }
+
+                .collapsing {
+                    background: #F9F9F9;
+                    line-height: 30px;
+                }
+
+                .collapse {
+                    border: 0;
+                }
+
+                .collapse.show {
+                    background: #F9F9F9;
+                    line-height: 30px;
+                    color: #222;
+                }
+
+                .card-body {
+                    padding: 0 1.25rem 25px;
+
+                    .content-inners {
+                        border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+                        border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+                        padding: 20px 0 0;
+
+                        .titles {
+                            ul {
+                                list-style: none;
+                                padding-left: 0;
+
+                                li {
+                                    display: inline-block;
+
+                                    .images img {
+                                        width: 40px;
+                                    }
+
+                                    .conts {
+                                        margin: 0 15px;
+                                        position: relative;
+
+                                        h4 {
+                                            font-style: normal;
+                                            font-weight: bold;
+                                            font-size: 18px;
+                                            line-height: 25px;
+                                            letter-spacing: 0.04em;
+                                            color: #00A2E9;
+                                            display: inline;
+                                        }
+
+                                        h6 {
+                                            font-style: normal;
+                                            font-weight: 300;
+                                            font-size: 14px;
+                                            line-height: 19px;
+                                            letter-spacing: 0.04em;
+                                            color: rgba(0, 0, 0, 0.4);
+                                            display: inline;
+                                            margin-left: 10px;
+                                        }
+                                    }
+
+                                }
+                            }
+
+                            .date {
+                                position: relative;
+
+                                p {
+                                    font-style: normal;
+                                    top: 7px;
+                                    position: relative;
+                                    text-align: right;
+                                    font-weight: 300;
+                                    font-size: 14px;
+                                    line-height: 19px;
+                                    letter-spacing: 0.04em;
+                                    color: rgba(0, 0, 0, 0.4);
+                                }
+                            }
+                        }
+                    }
+
+                    .content-inners:not(first-child) {
+                        border-top: none;
+                    }
+
+                    .answers {
+                        margin-top: 10px;
+
+                        p {
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 32px;
+                            color: #000000;
+                        }
+                    }
+                }
+
+                .replys {
+                    background: #ffffff;
+                    padding: 20px 35px;
+
+                    .titles-reply {
+                        h6 {
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 14px;
+                            line-height: 19px;
+                            letter-spacing: 0.1em;
+                            text-transform: capitalize;
+                            color: rgba(0, 0, 0, 0.87);
+                        }
+                    }
+
+                    .area-reply {
+                        background: #F9F9F9;
+                        border-radius: 8px;
+                        padding: 15px 0 30px;
+                        margin-top: 15px;
+
+                        .subs-titles-area {
+                            padding: 0 16px;
+
+                            ul {
+                                list-style: none;
+                                padding-left: 0;
+
+                                li {
+                                    display: inline-block;
+
+                                    .images img {
+                                        width: 54px;
+                                    }
+
+                                    .conts {
+                                        margin: 0 15px;
+                                        position: relative;
+
+                                        h4 {
+                                            font-style: normal;
+                                            font-weight: bold;
+                                            font-size: 18px;
+                                            line-height: 25px;
+                                            letter-spacing: 0.04em;
+                                            color: #00A2E9;
+                                            display: inline;
+                                        }
+                                    }
+
+                                }
+                            }
+
+                            input {
+                                width: 100%;
+                                height: 100px;
+                                padding: 0 25px 60px;
+                                background: transparent;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 16px;
+                                line-height: 0px;
+                                color: #000000;
+                            }
+
+                            input::placeholder {
+                                color: rgba(92, 92, 92, 0.23);
+                            }
+                        }
+                    }
+
+                    .posts {
+                        width: 100%;
+                        margin-left: auto;
+                        position: relative;
+                        display: block;
+
+                        button {
+                            margin-top: 15px;
+                            width: 83px;
+                            height: 32px;
+                            border: 1px solid rgba(0, 0, 0, 0.16);
+                            box-sizing: border-box;
+                            border-radius: 4px;
+                            background: transparent;
+                            position: relative;
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 12px;
+                            line-height: 16px;
+                            letter-spacing: 0.04em;
+                            color: rgba(0, 0, 0, 0.24);
+                        }
                     }
                 }
             }
@@ -2231,6 +2463,10 @@ div#ModalQuit {
                                 border: 0.5px solid #5FC2ED;
                                 box-sizing: border-box;
                                 padding: 15px 20px;
+
+                                p {
+                                    display: inline;
+                                }
                             }
                         }
                     }
@@ -2358,12 +2594,14 @@ div#ModalQuit {
             }
 
             .box-content.discussions {
-                .overview{
+                .overview {
                     margin-bottom: 25px;
-                    h6{
+
+                    h6 {
                         margin-bottom: 10px;
                     }
-                    p{
+
+                    p {
                         font-style: normal;
                         font-weight: 300;
                         font-size: 14px;
@@ -2371,30 +2609,124 @@ div#ModalQuit {
                         color: #5C5C5C;
                     }
                 }
-                form.disc-ask{
-                    input{
+
+                form.disc-ask {
+                    input {
                         padding-left: 25px;
                         font-style: normal;
                         font-weight: normal;
                         font-size: 16px;
                         line-height: 0px;
                     }
-                    input::placeholder{
+
+                    input::placeholder {
                         color: rgba(92, 92, 92, 0.23);
                     }
-                    input.title{
+
+                    input.title {
                         border-top-right-radius: 10px;
                         border-top-left-radius: 10px;
                         width: 100%;
                         height: 40px;
                     }
-                    input.write{
+
+                    input.write {
                         border-bottom-right-radius: 10px;
                         border-bottom-left-radius: 10px;
                         border-top: 1px solid rgba(0, 0, 0, 0.03);
                         width: 100%;
                         height: 100px;
+                        padding: 0px 25px 60px;
                     }
+
+                    button {
+                        width: 83px;
+                        height: 32px;
+                        border: 1px solid rgba(0, 0, 0, 0.16);
+                        box-sizing: border-box;
+                        border-radius: 4px;
+                        background: transparent;
+                        top: -50px;
+                        position: relative;
+                        float: right;
+                        right: 25px;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 12px;
+                        line-height: 16px;
+                        letter-spacing: 0.04em;
+                        color: rgba(0, 0, 0, 0.24);
+                    }
+                }
+            }
+
+            .box-content.leaderboard {
+                .overview {
+                    margin-bottom: 25px;
+
+                    h6 {
+                        margin-bottom: 25px;
+                    }
+
+                    .card {
+                        width: 400px;
+                        height: 172px;
+                        background: #FFFFFF;
+                        border-radius: 10px;
+
+                        .inns {
+                            display: table;
+                            vertical-align: middle;
+                            height: 100%;
+                            width: 100%;
+                        }
+
+                        .card-header {
+                            height: 64px;
+                            background: #FFB75E;
+                            border-radius: 10px 10px 0px 0px;
+
+                            h3 {
+                                font-style: normal;
+                                font-weight: 800;
+                                font-size: 14px;
+                                line-height: 19px;
+                                text-align: center;
+                                text-transform: capitalize;
+                                color: #FFFFFF;
+                                vertical-align: middle;
+                                display: table-cell;
+                                height: 100%;
+                                position: relative;
+                            }
+                        }
+                        .card-body{
+                            .txt{
+                                text-align: center;
+                                vertical-align: middle;
+                                display: table-cell;
+                                height: 100%;
+                                position: relative;
+                                h5{
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    font-size: 24px;
+                                    line-height: 16px;
+                                    color: #00A2E9;
+                                    margin-bottom: 12px;
+                                }
+                                p{
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 12px;
+                                    line-height: 16px;
+                                    text-transform: capitalize;
+                                    color: #5C5C5C;
+                                }
+                            }
+                        }
+                    }
+
                 }
             }
 
@@ -2403,10 +2735,19 @@ div#ModalQuit {
                 position: relative;
             }
         }
-        .inner.taken{
-            border:none;
+
+        .inner.taken {
+            border: none;
         }
     }
+}
+
+.courses-insides.all-sec {
+    background-image: url('../../assets/img/dets.png');
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: @color-backs;
 }
 
 .courses-insides-sec-2 {

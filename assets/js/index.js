@@ -31,3 +31,4 @@ $('.btn-toggle-sidebar').click(function(){
     $('.btn-show').toggleClass('show');
     $('.btn-hide').toggleClass('show')
 })
+

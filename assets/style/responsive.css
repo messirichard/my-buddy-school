@@ -252,6 +252,42 @@
   .courses-insides .prelative.container .inner .box-content .overview {
     margin-bottom: 50px;
   }
+  .courses-insides .prelative.container .inner .box-content .content-desc .content .list-content .item p.title {
+    width: 100px;
+  }
+  .cover-all .inners .box-content p {
+    font-size: 14px;
+  }
+  .discussion-box .inners .content h5 {
+    font-size: 14px;
+  }
+  .discussion-box .inners .content p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .dets-course .box-content h5 {
+    font-size: 14px;
+  }
+  .discussion-box .responses .inst .accordion#faq .card-body .content-inners .titles ul li .images {
+    display: inline;
+  }
+  .discussion-box .responses .inst .accordion#faq .card-body .content-inners .titles ul li {
+    display: inline;
+  }
+  .discussion-box .responses .inst .accordion#faq .card-body .content-inners .titles ul li .conts {
+    display: inline-grid;
+  }
+  .discussion-box .responses .inst .accordion#faq .card-body .content-inners .titles ul li .conts {
+    margin: 0 12px;
+    position: relative;
+    top: -7px;
+  }
+  .discussion-box .responses .inst .accordion#faq .card-body .content-inners .titles ul li .conts h6 {
+    margin-left: 0;
+  }
+  .discussion-box .responses .inst .accordion#faq .card-body .content-inners .titles .date p {
+    top: 0;
+  }
 }
 @media screen and (max-width: 380px) {
   .landing-sec-5 .prelative.container .box-content {

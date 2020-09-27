@@ -67,7 +67,8 @@ Layouts html nya bisa diambil di folder /page/Layouts <br>
 
   - Discussion \
     https://my-buddy-school.vercel.app/page/Discussion/detail.html (S2P7) \
-    https://my-buddy-school.vercel.app/page/list.html (S2P8)
+    https://my-buddy-school.vercel.app/page/Discussion/detail2.html (S2P8) \
+    https://my-buddy-school.vercel.app/page/Discussion/list.html (S2P8)
 
   - Leaderboard \
     https://my-buddy-school.vercel.app/page/Leaderboard/leaderboard.html (S2P19)
