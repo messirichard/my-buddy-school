@@ -142,24 +142,51 @@
                                     </div>
                                 </div>
                                 <div class="after-author">
-                                    <ul>
+                                    <ul class="collapse-menu">
                                         <li>
-                                            <a href="#" class="active"><span><img src="../../assets/img/11.png" alt=""></span>Learn
-                                                Course</a>
+                                            <a href="#" class="active d-flex align-items-center justify-content-between">
+                                                <div class="menu d-flex align-items-center">
+                                                    <span class="mr-2">
+                                                        <img src="../../assets/img/11.png" alt="">
+                                                    </span>
+                                                    Learn Course
+                                                </div>
+                                                <button class="btn-toggle-collapse">
+                                                    <i class="fas fa-chevron-down"></i>
+                                                </button>
+                                            </a>
                                         </li>
                                         <li>
-                                            <a href="#"><span><img src="../../assets/img/12.png"
-                                                        alt=""></span>Discussion</a>
+                                            <a href="#">
+                                                <span class="mr-2">
+                                                    <img src="../../assets/img/12.png" alt="">
+                                                </span>
+                                                Discussion
+                                            </a>
                                         </li>
                                         <li>
-                                            <a href="#"><span><img src="../../assets/img/13.png" alt=""></span>Quiz</a>
+                                            <a href="#">
+                                                <span class="mr-2">
+                                                    <img src="../../assets/img/13.png" alt="">
+                                                </span>
+                                                Quiz
+                                            </a>
                                         </li>
                                         <li>
-                                            <a href="#"><span><img src="../../assets/img/14.png"
-                                                        alt=""></span>Leaderboard</a>
+                                            <a href="#">
+                                                <span class="mr-2">
+                                                    <img src="../../assets/img/14.png" alt="">
+                                                </span>
+                                                Leaderboard
+                                            </a>
                                         </li>
                                         <li>
-                                            <a href="#"><span><img src="../../assets/img/15.png" alt=""></span>Zoom</a>
+                                            <a href="#">
+                                                <span class="mr-2">
+                                                    <img src="../../assets/img/15.png" alt="">
+                                                </span>
+                                                Zoom
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>
@@ -192,7 +219,12 @@
     <script src="../../assets/js/modals.js"></script>
 
     <script>
-
+        $(document).ready(function(){
+            $('.btn-toggle-collapse').click(function(e){
+                e.preventDefault();
+                $('.collapse-menu').toggleClass('show')
+            })
+        })
     </script>
 
 </body>
