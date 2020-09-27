@@ -62,27 +62,27 @@ Layouts html nya bisa diambil di folder /page/Layouts <br>
 
 -- Links <br>
   - DetailCourse \
-    https://my-buddy-school.vercel.app/page/DetailCourse/taken.html (S2P1) \
-    https://my-buddy-school.vercel.app/page/untaken.html (S2P2)
+    https://my-buddy-school.vercel.app/page/DetailCourse/taken.html (S2P1) (Responsive done) \
+    https://my-buddy-school.vercel.app/page/untaken.html (S2P2) (Responsive done)
 
   - Discussion \
-    https://my-buddy-school.vercel.app/page/Discussion/detail.html (S2P7) \
-    https://my-buddy-school.vercel.app/page/Discussion/detail2.html (S2P8) \
-    https://my-buddy-school.vercel.app/page/Discussion/list.html (S2P8)
+    https://my-buddy-school.vercel.app/page/Discussion/detail.html (S2P7) (Responsive done) \
+    https://my-buddy-school.vercel.app/page/Discussion/detail2.html (S2P8) (Responsive done) \
+    https://my-buddy-school.vercel.app/page/Discussion/list.html (S2P8) (Responsive done)
 
   - Leaderboard \
-    https://my-buddy-school.vercel.app/page/Leaderboard/leaderboard.html (S2P19)
+    https://my-buddy-school.vercel.app/page/Leaderboard/leaderboard.html (S2P19) (Responsive done)
 
   - LearnCourse \
     https://my-buddy-school.vercel.app/page/LearnCourse/detail.html (S2P5)
 
   - Quiz \
-    https://my-buddy-school.vercel.app/page/Quiz/list.html (S2P11) \
-    https://my-buddy-school.vercel.app/page/Quiz/intro.html (S2P12) \
-    https://my-buddy-school.vercel.app/page/Quiz/board.html (S2P13 (Without Image)) \
-    https://my-buddy-school.vercel.app/page/Quiz/boardimage.html (S2P13 (With Image)) \
-    https://my-buddy-school.vercel.app/page/Quiz/popup.html (S2P14)
+    https://my-buddy-school.vercel.app/page/Quiz/list.html (S2P11) (Responsive done) \
+    https://my-buddy-school.vercel.app/page/Quiz/intro.html (S2P12) (Responsive done) \
+    https://my-buddy-school.vercel.app/page/Quiz/board.html (S2P13 (Without Image)) (Responsive done) \
+    https://my-buddy-school.vercel.app/page/Quiz/boardimage.html (S2P13 (With Image)) (Responsive done) \
+    https://my-buddy-school.vercel.app/page/Quiz/popup.html (S2P14) (Responsive done)
 
   - Zoom \
-    https://my-buddy-school.vercel.app/page/Zoom/join.html (S2P21) \
-    https://my-buddy-school.vercel.app/page/Zoom/empty.html (S2P22)
+    https://my-buddy-school.vercel.app/page/Zoom/join.html (S2P21) (Responsive done) \
+    https://my-buddy-school.vercel.app/page/Zoom/empty.html (S2P22) (Responsive done)

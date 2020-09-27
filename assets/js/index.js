@@ -32,3 +32,8 @@ $('.btn-toggle-sidebar').click(function(){
     $('.btn-hide').toggleClass('show')
 })
 
+function buttonFunction(btn) {
+    btn.style.backgroundColor = "#B1DAFF";
+    btn.style.outline = "none";
+}
+

@@ -1,3 +1,185 @@
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: local('Nunito Sans ExtraLight Italic'), local('NunitoSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4GxZrU1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Nunito Sans Light Italic'), local('NunitoSans-LightItalic'), url(https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G3JoU1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Nunito Sans Italic'), local('NunitoSans-Italic'), url(https://fonts.gstatic.com/s/nunitosans/v6/pe0oMImSLYBIv1o4X1M8cce4I94.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Nunito Sans SemiBold Italic'), local('NunitoSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4GwZuU1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Nunito Sans Bold Italic'), local('NunitoSans-BoldItalic'), url(https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G2JvU1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Nunito Sans ExtraBold Italic'), local('NunitoSans-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G35sU1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Nunito Sans Black Italic'), local('NunitoSans-BlackItalic'), url(https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G1ptU1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local('Nunito Sans ExtraLight'), local('NunitoSans-ExtraLight'), url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc9yAv5q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Nunito Sans Light'), local('NunitoSans-Light'), url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8WAf5q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Nunito Sans Regular'), local('NunitoSans-Regular'), url(https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cfe6.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Nunito Sans SemiBold'), local('NunitoSans-SemiBold'), url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc9iB_5q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Nunito Sans Bold'), local('NunitoSans-Bold'), url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBv5q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Nunito Sans ExtraBold'), local('NunitoSans-ExtraBold'), url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8aBf5q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Nunito Sans Black'), local('NunitoSans-Black'), url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8-BP5q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrIzc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjARc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu52xP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ABc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBhc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgWxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtvAw.ttf) format('truetype');
+}
 a:hover,
 button:hover {
   text-decoration: none;
@@ -2178,13 +2360,12 @@ div#ModalQuit .modal-content .modal-footer button.confirms {
   color: rgba(0, 0, 0, 0.24);
 }
 .courses-insides .prelative.container .inner .box-content.leaderboard .overview {
-  margin-bottom: 25px;
+  margin-bottom: 65px;
 }
 .courses-insides .prelative.container .inner .box-content.leaderboard .overview h6 {
   margin-bottom: 25px;
 }
 .courses-insides .prelative.container .inner .box-content.leaderboard .overview .card {
-  width: 400px;
   height: 172px;
   background: #FFFFFF;
   border-radius: 10px;
@@ -2236,6 +2417,178 @@ div#ModalQuit .modal-content .modal-footer button.confirms {
   text-transform: capitalize;
   color: #5C5C5C;
 }
+.courses-insides .prelative.container .inner .box-content.leaderboard .tables {
+  margin-bottom: 30px;
+}
+.courses-insides .prelative.container .inner .box-content.leaderboard .tables .titles {
+  padding-bottom: 10px;
+}
+.courses-insides .prelative.container .inner .box-content.leaderboard .tables .titles h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  color: #5C5C5C;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  padding-bottom: 25px;
+}
+.courses-insides .prelative.container .inner .box-content.leaderboard .tables .inns {
+  margin-top: 15px;
+}
+.courses-insides .prelative.container .inner .box-content.leaderboard .tables .inns .numbers img.numbs {
+  width: 32px;
+  top: 5px;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+.courses-insides .prelative.container .inner .box-content.leaderboard .tables .inns .numbers p {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 16px;
+  text-align: center;
+  color: #5C5C5C;
+  top: 12px;
+  position: relative;
+}
+.courses-insides .prelative.container .inner .box-content.leaderboard .tables .inns .names img.name {
+  width: 40px;
+  display: inline;
+}
+.courses-insides .prelative.container .inner .box-content.leaderboard .tables .inns .names p {
+  display: inline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #5C5C5C;
+  margin-left: 10px;
+}
+.courses-insides .prelative.container .inner .box-content.leaderboard .tables .inns .quiz p,
+.courses-insides .prelative.container .inner .box-content.leaderboard .tables .inns .point p {
+  top: 12px;
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #5C5C5C;
+}
+.courses-insides .prelative.container .inner .box-content.quiz .overview {
+  margin-bottom: 25px;
+}
+.courses-insides .prelative.container .inner .box-content.quiz .overview h6 {
+  margin-bottom: 10px;
+}
+.courses-insides .prelative.container .inner .box-content.quiz .overview p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #5C5C5C;
+}
+.courses-insides .prelative.container .inner .box-content.quiz .content .list-content .item {
+  height: 56px;
+  background: #FFFFFF;
+  border: 0.5px solid #5FC2ED;
+  box-sizing: border-box;
+  padding: 25px;
+}
+.courses-insides .prelative.container .inner .box-content.quiz .content .list-content .item p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #C4C4C4;
+}
+.courses-insides .prelative.container .inner .box-content.quiz .content .list-content .item p.active {
+  color: #00a2e9;
+}
+.courses-insides .prelative.container .inner .box-content.quiz-intro .overview {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+.courses-insides .prelative.container .inner .box-content.quiz-intro .overview h6 {
+  margin-bottom: 10px;
+}
+.courses-insides .prelative.container .inner .box-content.quiz-intro .overview p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 175.8%;
+  color: #5C5C5C;
+  margin-bottom: 40px;
+}
+.courses-insides .prelative.container .inner .box-content.quiz-intro .overview .btn-quiz .btn-start-quiz {
+  max-width: 250px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(180deg, #00A2E9 0%, #5FC2ED 100%);
+  border-radius: 50px;
+}
+.courses-insides .prelative.container .inner .box-content.quiz-intro .overview .btn-quiz .btn-download-pembahasan {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  max-width: 250px;
+  height: 40px;
+  background: #E4E4E4;
+  border-radius: 50px;
+}
+.courses-insides .prelative.container .inner .box-content.quiz-intro .score {
+  padding-top: 20px;
+}
+.courses-insides .prelative.container .inner .box-content.quiz-intro .score h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #5C5C5C;
+}
+.courses-insides .prelative.container .inner .box-content.quiz-intro .score p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 175.8%;
+  color: #5C5C5C;
+}
+.courses-insides .prelative.container .inner .box-content.quiz-intro .score p span {
+  font-weight: 800;
+  color: #00a2e9;
+}
+.courses-insides .prelative.container .inner .box-content.quiz-intro .content .list-content .item {
+  height: 56px;
+  background: #FFFFFF;
+  border: 0.5px solid #5FC2ED;
+  box-sizing: border-box;
+  padding: 25px;
+}
+.courses-insides .prelative.container .inner .box-content.quiz-intro .content .list-content .item p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #C4C4C4;
+}
+.courses-insides .prelative.container .inner .box-content.quiz-intro .content .list-content .item p.active {
+  color: #00a2e9;
+}
 .courses-insides .prelative.container .inner .box-contents-right.taken {
   top: -155px;
   position: relative;
@@ -2245,6 +2598,27 @@ div#ModalQuit .modal-content .modal-footer button.confirms {
 }
 .courses-insides.all-sec {
   background-image: url('../../assets/img/dets.png');
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #EFF6FB;
+}
+.courses-insides.taken-backs {
+  background-image: url('../../assets/img/takenbacks.png');
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #EFF6FB;
+}
+.courses-insides.quiz-list-backs {
+  background-image: url('../../assets/img/quiz-backs.png');
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #EFF6FB;
+}
+.courses-insides.leads-backs {
+  background-image: url('../../assets/img/leadbacks.png');
   height: auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2385,4 +2759,260 @@ div#ModalQuit .modal-content .modal-footer button.confirms {
   position: relative;
   display: block;
   font-family: 'Roboto', sans-serif;
+}
+.courses-insides.ujians .prelative.container .backs {
+  padding-top: 40px;
+}
+.courses-insides.ujians .prelative.container .backs a {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #00A2E9;
+}
+.courses-insides.ujians .prelative.container .backs a i {
+  margin-right: 15px;
+  color: #000000;
+}
+.courses-insides.ujians .prelative.container .container-soal {
+  padding-top: 80px;
+  max-width: 830px;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+}
+.courses-insides.ujians .prelative.container .container-soal .soal .title {
+  margin-bottom: 40px;
+}
+.courses-insides.ujians .prelative.container .container-soal .soal .title h6 {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #5C5C5C;
+}
+.courses-insides.ujians .prelative.container .container-soal .soal .images {
+  margin: 0px 0 40px;
+}
+.courses-insides.ujians .prelative.container .container-soal .soal .images img {
+  margin: 0 auto;
+  max-width: 830px;
+  display: block;
+  position: relative;
+}
+.courses-insides.ujians .prelative.container .container-soal .soal .pilgan button.pilgans {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 56px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #5C5C5C;
+  background: #E4E4E4;
+  border-radius: 5px;
+}
+.courses-insides.ujians .prelative.container .container-soal .soal .pilgan button.pilgans p.pil-2 {
+  text-align: left;
+}
+.courses-insides.ujians .prelative.container .container-soal .soal .pilgan button.pilgans:hover {
+  background: #B1DAFF;
+}
+.courses-insides.ujians .prelative.container .container-soal .btn-prev-next {
+  width: 100%;
+  display: block;
+  margin: 30px auto 15px;
+  text-align: center;
+}
+.courses-insides.ujians .prelative.container .container-soal .btn-prev-next button {
+  width: 126px;
+  height: 40px;
+  margin: 0 10px;
+}
+.courses-insides.ujians .prelative.container .container-soal .btn-prev-next button.prev {
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.47) 100%);
+  border: 1px solid #00A2E9;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #00A2E9;
+}
+.courses-insides.ujians .prelative.container .container-soal .btn-prev-next button.next {
+  background: linear-gradient(180deg, #00A2E9 0%, #5FC2ED 100%);
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.courses-insides.ujians .prelative.container .prog label {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #5C5C5C;
+}
+.courses-insides.ujians .prelative.container .prog label span {
+  font-weight: 600;
+}
+.courses-insides.ujians .prelative.container .prog .progress {
+  height: 6px;
+  background-color: #B1DAFF;
+  margin-bottom: 20px;
+}
+.courses-insides.ujians .prelative.container .prog .progress .progress-bar {
+  background-color: #00A2E9;
+}
+div#exampleModalZoomEmpty .modal-dialog.modal-dialog-centered {
+  max-width: 960px;
+}
+div#exampleModalZoomEmpty .modal-content {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: 8px;
+}
+div#exampleModalZoomEmpty .modal-content a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #00A2E9;
+  text-align: center;
+  top: -10px;
+  position: relative;
+}
+div#exampleModalZoomEmpty .modal-content .modal-header {
+  border-bottom: none;
+}
+div#exampleModalZoomEmpty .modal-content .modal-header .modal-title {
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #5C5C5C;
+}
+div#exampleModalZoomEmpty .modal-content .modal-header button {
+  padding: 0;
+  margin: 0;
+}
+div#exampleModalZoomEmpty .modal-content .modal-body .inns {
+  background: #EFF6FB;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px rgba(0, 162, 233, 0.06);
+  border-radius: 10px;
+  padding: 16px;
+}
+div#exampleModalZoomEmpty .modal-content .modal-body .inns p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.63);
+  margin-bottom: 20px;
+}
+div#exampleModalZoomEmpty .modal-content .modal-body .inns h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.63);
+}
+div#exampleModalZoomEmpty .modal-content .modal-body .inns h6 img {
+  margin-right: 15px;
+}
+div#exampleModalQuiz .modal-dialog.modal-dialog-centered {
+  max-width: 544px;
+}
+div#exampleModalQuiz .modal-content {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: 8px;
+}
+div#exampleModalQuiz .modal-content a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #00A2E9;
+  text-align: center;
+  top: -10px;
+  position: relative;
+}
+div#exampleModalQuiz .modal-content .modal-header {
+  border-bottom: none;
+  background: #5FC2ED;
+  border-radius: 8px 8px 0px 0px;
+}
+div#exampleModalQuiz .modal-content .modal-header .modal-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+div#exampleModalQuiz .modal-content .modal-header button {
+  padding: 0;
+  margin: 0;
+}
+div#exampleModalQuiz .modal-content .modal-body .inns p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.2px;
+  color: #000000;
+}
+div#exampleModalQuiz .modal-content .modal-body .inns h5 {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  letter-spacing: -0.2px;
+  margin: 20px 0;
+  color: #00A2E9;
+}
+div#exampleModalQuiz .modal-content .modal-body .inns button.close {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 140px;
+  height: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(180deg, #00A2E9 0%, #5FC2ED 100%);
+  box-shadow: 0px 0px 20px rgba(0, 162, 233, 0.05);
+  border-radius: 21px;
 }
