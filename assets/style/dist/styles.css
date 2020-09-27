@@ -2593,6 +2593,100 @@ div#ModalQuit .modal-content .modal-footer button.confirms {
   top: -155px;
   position: relative;
 }
+.courses-insides .prelative.container .inner .box-content.learn-course .overview {
+  margin-bottom: 40px;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .overview h6 {
+  margin-bottom: 10px;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .overview p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #5C5C5C;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .materi h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #5C5C5C;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .materi .frames {
+  margin-top: 25px;
+  background: #FFFFFF;
+  border: 0.5px solid #5FC2ED;
+  box-sizing: border-box;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .materi .frames .inns {
+  padding: 0 25px 50px;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .materi .frames .inns .heads {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .materi .frames .inns .heads .btn-heads {
+  text-align: right;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .materi .frames .inns .heads .btn-heads button {
+  background: transparent;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 0px;
+  color: #00A2E9;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .materi .frames .inns .heads .btn-heads button img {
+  margin-right: 12px;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .materi .frames .inns .heads .btn-heads button span {
+  top: 2px;
+  position: relative;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .materi .frames .inns .heads .btn-heads .download {
+  margin-right: 40px;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .materi .frames .inns .txt {
+  padding-top: 40px;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .materi .frames .inns .txt h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 0px;
+  text-align: center;
+  color: #5C5C5C;
+  margin-bottom: 40px;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .materi .frames .inns .txt p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 175.8%;
+  text-transform: capitalize;
+  color: #5C5C5C;
+  margin-bottom: 40px;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .materi .frames .inns .txt .mid h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 0px;
+  text-align: center;
+  color: #5C5C5C;
+  margin-bottom: 20px;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .materi .frames .inns .txt .mid img {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-bottom: 40px;
+}
+.courses-insides .prelative.container .inner .box-content.learn-course .materi .frames .inns .txt .youtube {
+  padding: 0 50px;
+}
 .courses-insides .prelative.container .inner.taken {
   border: none;
 }
