@@ -653,6 +653,21 @@ ul.navbar-nav.mr-auto li.nav-item {
 .cover-all.covers-dets {
   padding: 40px 0;
 }
+.cover-all.contact-abouts {
+  height: 118px;
+  background: #62C3D0;
+}
+.cover-all.contact-abouts .inners {
+  height: 118px;
+}
+.cover-all.contact-abouts .inners h4 {
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
 .cover-all.search {
   padding: 60px 0;
 }
@@ -3144,4 +3159,89 @@ div#exampleModalQuiz .modal-content .modal-body .inns button.close {
 }
 .after-author .collapse-menu .btn-toggle-collapse i.fas.fa-chevron-down {
   display: none;
+}
+.contact-about-sec-1 {
+  background-image: url('../../assets/img/contactabout.png');
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #EFF6FB;
+  padding-top: 40px;
+  padding-bottom: 125px;
+}
+.contact-about-sec-1 .prelative.container {
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 40px;
+}
+.contact-about-sec-1 .prelative.container .txt h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 30px;
+  margin-top: 9px;
+}
+.contact-about-sec-1 .prelative.container .txt p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #5C5C5C;
+}
+.contact-about-sec-1 .prelative.container .maps {
+  margin-top: 40px;
+}
+.contact-about-sec-1 .prelative.container .maps iframe {
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 0px 16px rgba(0, 0, 0, 0.16));
+  border-radius: 8px;
+}
+.contact-about-sec-1 .prelative.container .box-content img {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 65px;
+}
+.contact-about-sec-1 .prelative.container .box-content h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: #070707;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.contact-about-sec-1 .prelative.container .box-content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #070707;
+  margin-bottom: 30px;
+}
+.contact-about-sec-1 .prelative.container .mission {
+  text-align: center;
+  margin-top: 30px;
+  max-width: 495px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.contact-about-sec-1 .prelative.container .mission h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: #070707;
+  margin-bottom: 25px;
+}
+.contact-about-sec-1 .prelative.container .mission p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #070707;
 }

@@ -86,3 +86,26 @@ Layouts html nya bisa diambil di folder /page/Layouts <br>
   - Zoom \
     https://my-buddy-school.vercel.app/page/Zoom/join.html (S2P21) (Responsive done) \
     https://my-buddy-school.vercel.app/page/Zoom/empty.html (S2P22) (Responsive done)
+
+
+--- Sprint 3 Folder
+  - ContactUs && About
+  - MyCourse
+  - Profile
+  - Messaging
+
+-- Links <br>
+  - ContactUs && About \
+    https://my-buddy-school.vercel.app/page/ContactsAbout/contactus.html (S2P1) (Responsive done) \
+    https://my-buddy-school.vercel.app/page/ContactsAbout/about.html (S2P2) (Responsive done)
+
+  - MyCourse \
+    https://my-buddy-school.vercel.app/page/Discussion/detail.html (S2P7) (Responsive done) \
+    https://my-buddy-school.vercel.app/page/Discussion/detail2.html (S2P8) (Responsive done) \
+    https://my-buddy-school.vercel.app/page/Discussion/list.html (S2P8) (Responsive done)
+
+  - Profile \
+    https://my-buddy-school.vercel.app/page/Leaderboard/leaderboard.html (S2P19) (Responsive done)
+
+  - Messaging \
+    https://my-buddy-school.vercel.app/page/LearnCourse/detail.html (S2P5)

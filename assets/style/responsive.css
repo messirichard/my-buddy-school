@@ -359,6 +359,19 @@
   .courses-insides.ujians .prelative.container .container-soal .soal .images img {
     width: 100%;
   }
+  .cover-all.contact-abouts .inners {
+    height: 90px;
+  }
+  .cover-all.contact-abouts .inners .box-content h4 {
+    font-size: 30px;
+  }
+  .contact-about-sec-1 .prelative.container .txt h6 {
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  .contact-about-sec-1 .prelative.container .txt p {
+    margin-bottom: 30px;
+  }
 }
 @media screen and (max-width: 380px) {
   .landing-sec-5 .prelative.container .box-content {
