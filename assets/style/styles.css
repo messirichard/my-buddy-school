@@ -668,8 +668,65 @@ ul.navbar-nav.mr-auto li.nav-item {
   line-height: 24px;
   color: #FFFFFF;
 }
+.cover-all.my-course {
+  height: 191px;
+  background: #D3E9F3;
+}
+.cover-all.my-course .inners {
+  height: 191px;
+}
+.cover-all.my-course .inners h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  color: #00A2E9;
+}
+.cover-all.my-course ul.nav.nav-pills {
+  position: relative;
+  top: -50px;
+  left: 2.5%;
+}
+.cover-all.my-course ul.nav.nav-pills li.nav-item a.nav-link.active {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  background: transparent;
+  color: #00A2E9;
+  border-bottom: 4px solid #00A2E9;
+  border-radius: 0;
+}
+.cover-all.my-course ul.nav.nav-pills li.nav-item a.nav-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #969696;
+}
+.cover-all.my-course ul.nav.nav-pills li.nav-item a.nav-link:hover {
+  color: #00A2E9;
+  border-bottom: 4px solid #00A2E9;
+  border-radius: 0;
+}
 .cover-all.search {
   padding: 60px 0;
+}
+.cover-all.profiles {
+  height: 134px;
+  background: #5FC2ED;
+}
+.cover-all.profiles .inners {
+  height: 134px;
+}
+.cover-all.profiles .inners h4 {
+  margin-bottom: 15px;
 }
 .cover-all .inners .box-content p {
   font-style: normal;
@@ -1555,6 +1612,121 @@ ul.navbar-nav.mr-auto li.nav-item {
 }
 .sidebar .list-group-item.active a {
   color: #00A2E9;
+}
+.card.sidebar.profiles .list-group-item a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #00A2E9;
+  padding: 15px 20px;
+}
+.card.sidebar.profiles .list-group-item:hover,
+.card.sidebar.profiles .list-group-item.active {
+  background: #F4F4F4;
+  border-left: 8px solid #00A2E9;
+}
+.card.sidebar.profiles .list-group-item:hover a,
+.card.sidebar.profiles .list-group-item.active a {
+  color: #00a2e9;
+  padding: 15px 12px;
+}
+.card.sidebar.profiles .list-group-item:hover a p,
+.card.sidebar.profiles .list-group-item.active a p {
+  color: #00a2e9;
+}
+.card.sidebar.profiles .menu.d-flex {
+  height: 18px;
+}
+.card.sidebar.profiles .menu.d-flex p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #5C5C5C;
+  position: relative;
+}
+.card.sidebar.profiles .menu.d-flex:hover p {
+  color: #00a2e9;
+}
+.contents-courses.profilessss .prelative.container {
+  max-width: 1000px;
+}
+.contents-courses.profilessss .prelative.container .profffsss {
+  background: #FFFFFF;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.contents-courses.profilessss .prelative.container .profffsss img {
+  margin: 40px auto 23px;
+}
+.contents-courses.profilessss .prelative.container .profffsss h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  align-items: center;
+  color: #000000;
+}
+.contents-courses.profilessss .prelative.container .profffsss p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #5C5C5C;
+}
+.contents-courses.profilessss .prelative.container .box-right {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+}
+.contents-courses.profilessss .prelative.container .box-right form label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.8;
+}
+.contents-courses.profilessss .prelative.container .box-right form input {
+  opacity: 0.4;
+  border: 1px solid #5C5C5C;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 55px;
+  margin-bottom: 15px;
+}
+.contents-courses.profilessss .prelative.container .box-right form .form-check input.form-check-input {
+  height: 20px;
+}
+.contents-courses.profilessss .prelative.container .box-right form .form-check label {
+  top: -7px;
+  position: relative;
+  margin-left: 5px;
+}
+.contents-courses.profilessss .prelative.container .box-right form input:active,
+.contents-courses.profilessss .prelative.container .box-right form input:hover,
+.contents-courses.profilessss .prelative.container .box-right form input:focus {
+  outline: none;
+}
+.contents-courses.profilessss .prelative.container .box-right form input::-webkit-input-placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #5C5C5C;
+  opacity: 0.8;
 }
 .dashboard-sec-2 {
   background-image: url('../../assets/img/backs.png');

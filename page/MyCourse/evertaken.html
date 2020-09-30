@@ -1,0 +1,655 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Course</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/style/bootstrap-drawer.css">
+    <link rel="stylesheet" href="../../assets/style/styles.css">
+    <link rel="stylesheet" href="../../assets/style/styles2.css">
+    <link rel="stylesheet" href="../../assets/style/responsive.css">
+</head>
+
+<body>
+    <header-after></header-after>
+
+
+    <section class="cover-all my-course">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="inners">
+                    <div class="box-content">
+                        <h4>My Courses</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!-- <div class="image"><img src="../../assets/img/MaskGroups.png" alt=""></div> -->
+            </div>
+            <div class="col-md-12">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-courses-tab" data-toggle="pill" href="#pills-courses"
+                            role="tab" aria-controls="pills-courses" aria-selected="true">Courses</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-ongoing-tab" data-toggle="pill" href="#pills-ongoing"
+                            role="tab"
+                            aria-controls="pills-ongoing" aria-selected="false">On Going</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="pills-evertaken-tab" data-toggle="pill" href="#pills-evertaken"
+                            role="tab" aria-controls="pills-evertaken" aria-selected="false">Ever Taken</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="contents-courses pb-5 pt-5">
+        <div class="prelative container">
+            <div class="courses-sidebars">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card sidebar border-0 mb-3">
+                            <ul class="list-group list-group-flush" id="list-menu-sidebar">
+                                <li class="list-group-item d-flex p-0">
+                                    <a href="" class="d-flex align-items-center link-all">
+                                        <img src="../../assets/img/world.svg" alt="world">
+                                        <p class="mb-0 ml-2 text-bold">ALL</p>
+                                    </a>
+                                    <button class="btn-toggle-sidebar btn-show show">
+                                        <i class="fal fa-chevron-down"></i>
+                                    </button>
+                                    <button class="btn-toggle-sidebar btn-hide">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </li>
+                                <li class="list-group-item dropdown p-0 active">
+                                    <a class="nav-link dropdown-toggle d-flex align-items-center justify-content-between"
+                                        href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        <div class="menu d-flex">
+                                            <img src="../../assets/img/book.svg" alt="book">
+                                            <p class="mb-0 ml-2">LESSON</p>
+                                        </div>
+                                    </a>
+                                    <div class="dropdown-menu rounded-0 border-0 p-0 pb-2"
+                                        aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item active" href="#">Natural Science</a>
+                                        <a class="dropdown-item" href="#">Mathematic</a>
+                                        <a class="dropdown-item" href="#">English Language</a>
+                                        <a class="dropdown-item" href="#">Indonesian Languange</a>
+                                        <a class="dropdown-item" href="#">Social Science</a>
+                                        <a class="dropdown-item" href="#">Vernacular</a>
+                                        <a class="dropdown-item" href="#">Civilization</a>
+                                    </div>
+                                </li>
+                                <li class="list-group-item dropdown p-0">
+                                    <a class="nav-link dropdown-toggle d-flex align-items-center justify-content-between"
+                                        href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        <div class="menu d-flex">
+                                            <img src="../../assets/img/world.svg" alt="book">
+                                            <p class="mb-0 ml-2">RELIGION</p>
+                                        </div>
+                                    </a>
+                                    <div class="dropdown-menu rounded-0 border-0 p-0 pb-2"
+                                        aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Natural Science</a>
+                                        <a class="dropdown-item" href="#">Mathematic</a>
+                                        <a class="dropdown-item" href="#">English Language</a>
+                                        <a class="dropdown-item" href="#">Indonesian Languange</a>
+                                        <a class="dropdown-item" href="#">Social Science</a>
+                                        <a class="dropdown-item" href="#">Vernacular</a>
+                                        <a class="dropdown-item" href="#">Civilization</a>
+                                    </div>
+                                </li>
+                                <li class="list-group-item dropdown p-0">
+                                    <a class="nav-link dropdown-toggle d-flex align-items-center justify-content-between"
+                                        href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        <div class="menu d-flex">
+                                            <img src="../../assets/img/softskills.svg" alt="book">
+                                            <p class="mb-0 ml-2">SOFTSKILL</p>
+                                        </div>
+                                    </a>
+                                    <div class="dropdown-menu rounded-0 border-0 p-0 pb-2"
+                                        aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Natural Science</a>
+                                        <a class="dropdown-item" href="#">Mathematic</a>
+                                        <a class="dropdown-item" href="#">English Language</a>
+                                        <a class="dropdown-item" href="#">Indonesian Languange</a>
+                                        <a class="dropdown-item" href="#">Social Science</a>
+                                        <a class="dropdown-item" href="#">Vernacular</a>
+                                        <a class="dropdown-item" href="#">Civilization</a>
+                                    </div>
+                                </li>
+                                <li class="list-group-item dropdown p-0">
+                                    <a class="nav-link dropdown-toggle d-flex align-items-center justify-content-between"
+                                        href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        <div class="menu d-flex">
+                                            <img src="../../assets/img/pedagogics.svg" alt="book">
+                                            <p class="mb-0 ml-2">SOFTSKILLS</p>
+                                        </div>
+                                    </a>
+                                    <div class="dropdown-menu rounded-0 border-0 p-0 pb-2"
+                                        aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Natural Science</a>
+                                        <a class="dropdown-item" href="#">Mathematic</a>
+                                        <a class="dropdown-item" href="#">English Language</a>
+                                        <a class="dropdown-item" href="#">Indonesian Languange</a>
+                                        <a class="dropdown-item" href="#">Social Science</a>
+                                        <a class="dropdown-item" href="#">Vernacular</a>
+                                        <a class="dropdown-item" href="#">Civilization</a>
+                                    </div>
+                                </li>
+                                <li class="list-group-item dropdown p-0">
+                                    <a class="nav-link dropdown-toggle d-flex align-items-center justify-content-between"
+                                        href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        <div class="menu d-flex">
+                                            <img src="../../assets/img/others.svg" alt="book">
+                                            <p class="mb-0 ml-2">OTHERS</p>
+                                        </div>
+                                    </a>
+                                    <div class="dropdown-menu rounded-0 border-0 p-0 pb-2"
+                                        aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Natural Science</a>
+                                        <a class="dropdown-item" href="#">Mathematic</a>
+                                        <a class="dropdown-item" href="#">English Language</a>
+                                        <a class="dropdown-item" href="#">Indonesian Languange</a>
+                                        <a class="dropdown-item" href="#">Social Science</a>
+                                        <a class="dropdown-item" href="#">Vernacular</a>
+                                        <a class="dropdown-item" href="#">Civilization</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade " id="pills-courses" role="tabpanel"
+                                aria-labelledby="pills-courses-tab">
+                                <div class="courses">
+                                    <div class="row no-gutters pb-5">
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <button class="loads mb-5">LOAD MORE</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-ongoing" role="tabpanel"
+                                aria-labelledby="pills-ongoing-tab">
+                                <div class="courses">
+                                    <div class="row no-gutters pb-5">
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <button class="loads mb-5">LOAD MORE</button>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show active" id="pills-evertaken" role="tabpanel"
+                                aria-labelledby="pills-evertaken-tab">
+                                <div class="courses">
+                                    <div class="row no-gutters pb-5">
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4 col-6">
+
+                                            <div class="box-content mb-3">
+                                                <img src="../../assets/img/Frames4.jpg" alt="">
+                                                <div class="inss">
+                                                    <h4>Proses Fotosintesis pada Tanaman</h4>
+                                                    <h5>ENGLISH LANGUAGE</h5>
+                                                    <h6>Primary School (SD)</h6>
+                                                    <div class="author">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-1 col-1">
+                                                                <img src="../../assets/img/35x35.png" alt="">
+                                                            </div>
+                                                            <div class="col-md-9 col-9">
+                                                                <div class="texts">
+                                                                    <h3>Hayley Williams</h3>
+                                                                    <p>Tutor</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <modal-take></modal-take>
+    <modal-quit></modal-quit>
+    <footer-component></footer-component>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/index.js"></script>
+    <script src="../../assets/js/bootstrap-drawer.js"></script>
+    <script src="../../assets/js/header.js"></script>
+    <script src="../../assets/js/footer.js"></script>
+    <script src="../../assets/js/modals.js"></script>
+</body>
+
+</html>
