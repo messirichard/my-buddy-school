@@ -1653,6 +1653,13 @@ ul.navbar-nav.mr-auto li.nav-item {
 .card.sidebar.profiles .menu.d-flex:hover p {
   color: #00a2e9;
 }
+.contents-courses.profilessss {
+  background-image: url('../../assets/img/profsss.png');
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #EFF6FB;
+}
 .contents-courses.profilessss .prelative.container {
   max-width: 1000px;
 }
@@ -1689,6 +1696,16 @@ ul.navbar-nav.mr-auto li.nav-item {
   padding: 25px;
   border-radius: 10px;
 }
+.contents-courses.profilessss .prelative.container .box-right p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
 .contents-courses.profilessss .prelative.container .box-right form label {
   font-style: normal;
   font-weight: normal;
@@ -1699,12 +1716,16 @@ ul.navbar-nav.mr-auto li.nav-item {
   opacity: 0.8;
 }
 .contents-courses.profilessss .prelative.container .box-right form input {
+  border: 1px solid #356EAD;
   opacity: 0.4;
-  border: 1px solid #5C5C5C;
   box-sizing: border-box;
   border-radius: 10px;
   height: 55px;
   margin-bottom: 15px;
+}
+.contents-courses.profilessss .prelative.container .box-right form input.addess {
+  height: 100px;
+  padding: 0 5px 60px;
 }
 .contents-courses.profilessss .prelative.container .box-right form .form-check input.form-check-input {
   height: 20px;
@@ -1714,10 +1735,62 @@ ul.navbar-nav.mr-auto li.nav-item {
   position: relative;
   margin-left: 5px;
 }
+.contents-courses.profilessss .prelative.container .box-right form select {
+  border: 1px solid #356EAD;
+  opacity: 0.4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 100%;
+  height: 55px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  padding-left: 5px;
+}
+.contents-courses.profilessss .prelative.container .box-right form .input-group span#basic-addon1 {
+  height: 55px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background: transparent;
+  color: #496485;
+  border: 1px solid #356EAD;
+  opacity: 0.4;
+}
+.contents-courses.profilessss .prelative.container .box-right form .input-group input.nohp {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
 .contents-courses.profilessss .prelative.container .box-right form input:active,
 .contents-courses.profilessss .prelative.container .box-right form input:hover,
 .contents-courses.profilessss .prelative.container .box-right form input:focus {
   outline: none;
+}
+.contents-courses.profilessss .prelative.container .box-right form input#myfile {
+  border: none;
+}
+.contents-courses.profilessss .prelative.container .box-right form button.formssss {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  background: linear-gradient(180deg, #00A2E9 0%, #5FC2ED 100%);
+  box-shadow: 0px 4px 40px rgba(0, 162, 233, 0.2);
+  border-radius: 50px;
+  width: 282px;
+  height: 56px;
+  margin: 0 auto;
+  display: block;
+  color: #FFFFFF;
 }
 .contents-courses.profilessss .prelative.container .box-right form input::-webkit-input-placeholder {
   font-style: normal;

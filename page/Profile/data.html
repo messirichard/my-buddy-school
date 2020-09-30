@@ -105,6 +105,7 @@
                     </div>
                     <div class="col-md-8">
                         <div class="box-right">
+                            <p>Personal Data</p>
                             <form action="#">
                                 <div class="form-row">
                                     <div class="col-md-12">
@@ -131,26 +132,57 @@
                                             placeholder="Birth town">
                                     </div>
                                     <div class="col-md-12">
-                                        <label for="formGroupExampleInput">Where were you born?</label>
-                                        <input type="text" class="form-control" id="formGroupExampleInput"
-                                            placeholder="Birth town">
-                                    </div>
-                                    <div class="col-md-12">
                                         <label for="formGroupExampleInput">Birth Date</label>
                                         <div class="form-row">
                                             <div class="col">
-                                                <input type="text" class="form-control" placeholder="First name">
+                                                <select id="select-day"></select>
                                             </div>
                                             <div class="col">
-                                                <input type="text" class="form-control" placeholder="Last name">
+                                                <select id="select-month">
+                                                    <option value="0">January
+                                                    <option value="1">February
+                                                    <option value="2">March
+                                                    <option value="3">April
+                                                    <option value="4">May
+                                                    <option value="5">June
+                                                    <option value="6">July
+                                                    <option value="7">August
+                                                    <option value="8">September
+                                                    <option value="9">October
+                                                    <option value="10">November
+                                                    <option value="11">December
+                                                </select>
+                                            </div>
+                                            <div class="col">
+                                                <select id="select-year"></select>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12">
-                                        <label for="formGroupExampleInput">Member Since</label>
-                                        <input type="text" class="form-control" id="formGroupExampleInput"
-                                            placeholder="09/07/2018">
+                                    <div class="col-md-12 mt-3">
+                                        <label for="formGroupExampleInput">Degree</label>
+                                        <select id="select-month">
+                                            <option value="0">a
+                                            <option value="1">a
+                                            <option value="2">a
+                                        </select>
                                     </div>
+                                    <div class="col-md-12 mt-3">
+                                        <label for="formGroupExampleInput">No. Handphone</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">+62</span>
+                                            </div>
+                                            <input type="number" class="form-control nohp" placeholder=""
+                                                aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                     <div class="col-md-12">
+                                         <label class="d-block" for="formGroupExampleInput">Profile Photo</label>
+                                         <input type="file" id="myfile" name="myfile">
+                                     </div>
+                                     <div class="col-md-12">
+                                    <button class="formssss">SUBMIT</button>
+                                     </div>
                                 </div>
                             </form>
                         </div>

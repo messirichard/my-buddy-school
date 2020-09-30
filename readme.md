@@ -96,16 +96,19 @@ Layouts html nya bisa diambil di folder /page/Layouts <br>
 
 -- Links <br>
   - ContactUs && About \
-    https://my-buddy-school.vercel.app/page/ContactsAbout/contactus.html (S2P1) (Responsive done) \
-    https://my-buddy-school.vercel.app/page/ContactsAbout/about.html (S2P2) (Responsive done)
+    https://my-buddy-school.vercel.app/page/ContactsAbout/contactus.html (Responsive done) \
+    https://my-buddy-school.vercel.app/page/ContactsAbout/about.html (Responsive done)
 
   - MyCourse \
-    https://my-buddy-school.vercel.app/page/Discussion/detail.html (S2P7) (Responsive done) \
-    https://my-buddy-school.vercel.app/page/Discussion/detail2.html (S2P8) (Responsive done) \
-    https://my-buddy-school.vercel.app/page/Discussion/list.html (S2P8) (Responsive done)
+    https://my-buddy-school.vercel.app/page/MyCourse/courses.html (Responsive done) \
+    https://my-buddy-school.vercel.app/page/MyCourse/evertaken.html (Responsive done) \
+    https://my-buddy-school.vercel.app/page/MyCourse/ongoing.html (Responsive done)
 
   - Profile \
-    https://my-buddy-school.vercel.app/page/Leaderboard/leaderboard.html (S2P19) (Responsive done)
+    https://my-buddy-school.vercel.app/page/Profile/data.html (Responsive done) \
+    https://my-buddy-school.vercel.app/page/Profile/location.html (Responsive done) \
+    https://my-buddy-school.vercel.app/page/Profile/password.html (Responsive done) \
+    https://my-buddy-school.vercel.app/page/Profile/sosmed.html (Responsive done)
 
   - Messaging \
-    https://my-buddy-school.vercel.app/page/LearnCourse/detail.html (S2P5)
+    https://my-buddy-school.vercel.app/page/LearnCourse/detail.html 
