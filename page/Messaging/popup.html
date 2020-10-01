@@ -20,28 +20,76 @@
     <header-after></header-after>
     <header-course></header-course>
 
-    <a type="button" class="exampleModalZoomEmpt" id="exampleModalZoomEmpt" data-toggle="modal"
-        data-target="#exampleModalZoomEmpty">
+    <a type="button" class="exampleModalMsgEmpt" id="exampleModalMsgEmpt" data-toggle="modal"
+        data-target="#exampleModalMsgEmpty">
         Jalankan Popup
     </a>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModalZoomEmpty" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalZoomEmptyTitle" aria-hidden="true">
+    <div class="modal fade" id="exampleModalMsgEmpty" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalMsgEmptyTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Link Zoom</h5>
+                    <h5 class="modal-title">New Message</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <a href="https://zoom.us/meetings">https://zoom.us/meetings</a>
+                <div class="row no-gutters">
+                    <div class="col-md-3 col-3">
+                        <p>Send to :</p>
+                    </div>
+                    <div class="col-md-9 col-9">
+                        <select id="">
+                            <option value="0">Select Message Recipient
+                            <option value="1">
+                                <a href="#">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-3 col-3">
+                                            <img src="../../assets/img/Ellipse83.png" alt="">
+                                        </div>
+                                        <div class="col-md-9 col-9">
+                                            <h6>Alvan Nahari</h6>
+                                            <p>Lorem Ipsum</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </option>
+                            <option value="2">
+                                <a href="#">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-3 col-3">
+                                            <img src="../../assets/img/Ellipse83.png" alt="">
+                                        </div>
+                                        <div class="col-md-9 col-9">
+                                            <h6>Alvan Nahari</h6>
+                                            <p>Lorem Ipsum</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </option>
+                            <option value="3">
+                                <a href="#">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-3 col-3">
+                                            <img src="../../assets/img/Ellipse83.png" alt="">
+                                        </div>
+                                        <div class="col-md-9 col-9">
+                                            <h6>Alvan Nahari</h6>
+                                            <p>Lorem Ipsum</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </option>
+                        </select>
+                    </div>
+                </div>
                 <div class="modal-body">
                     <div class="inns">
-                        <p>Ikuti kelas online bersama Tutor anda.</p>
-                        <h6><img src="../../assets/img/bunder.png" alt="">Maaf kelas online masih belum tersedia</h6>
+                        <input type="text" placeholder="Type here....">
                     </div>
+                    <button>KIRIM</button>
                 </div>
             </div>
         </div>

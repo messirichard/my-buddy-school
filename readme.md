@@ -112,5 +112,5 @@ Layouts html nya bisa diambil di folder /page/Layouts <br>
 
   - Messaging \
     https://my-buddy-school.vercel.app/page/Messaging/unselected.html (Responsive done) \
-    https://my-buddy-school.vercel.app/page/Messaging/selected.html \
-    https://my-buddy-school.vercel.app/page/Messaging/popup.html \
+    https://my-buddy-school.vercel.app/page/Messaging/selected.html (Responsive done)\
+    https://my-buddy-school.vercel.app/page/Messaging/popup.html (Responsive done)

@@ -3838,6 +3838,97 @@ div#exampleModalZoomEmpty {
     }
 }
 
+div#exampleModalMsgEmpty {
+    .modal-dialog.modal-dialog-centered {
+        max-width: 365px;
+    }
+
+    .modal-content {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+        border: none;
+        border-radius: 8px;
+
+        a {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 33px;
+            text-align: center;
+            color: #00A2E9;
+            text-align: center;
+            top: -10px;
+            position: relative;
+        }
+
+        .modal-header {
+            border-bottom: none;
+            background: #5FC2ED;
+
+            .modal-title {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
+
+            button {
+                padding: 0;
+                color: #ffffff;
+                margin: 0;
+            }
+        }
+
+        .modal-body {
+            .inns {
+                background: #EFF6FB;
+                border: 1px solid rgba(0, 0, 0, 0.02);
+                box-sizing: border-box;
+                box-shadow: 0px 0px 10px rgba(0, 162, 233, 0.06);
+                border-radius: 10px;
+                padding: 16px;
+
+                input{
+                    background:transparent;
+                    height: 100px;
+                    padding: 0px 0px 88px;
+                    width: 100%;
+                }
+            }
+            button{
+                background: linear-gradient(180deg, #00A2E9 0%, #5FC2ED 100%);
+                box-shadow: 0px 4px 40px rgba(0, 162, 233, 0.05);
+                border-radius: 50px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FFFFFF;
+                width: 340px;
+                margin: 20px auto 10px;
+                height: 40px;
+                text-align: center;
+            }
+        }
+
+        .row.no-gutters{
+            padding: 5px 15px;
+            p{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 24px;
+                color: #000000;
+            }
+            select{
+                border: none;
+                width: 100%;
+            }
+        }
+    }
+}
+
 
 div#exampleModalQuiz {
     .modal-dialog.modal-dialog-centered {
@@ -4106,6 +4197,9 @@ section.message-breadcrumb {
         .hamburgs{
             .lefts{
                 padding-left: 25px;
+                i{
+                    margin-right: 15px;
+                }
                 img{
                     display: inline;
                 }
@@ -4162,12 +4256,16 @@ section.message-breadcrumb {
 
                     }
                 }
+                li.active{
+                    background: #E0F2FF;
+                }
             }
         }
 
         .message-inbox{
             background-color: #EFF6FB;
             height: 690px;
+            padding: 0 50px;
             .chat{
                 .conversation-start{
                     span{
@@ -4182,6 +4280,89 @@ section.message-breadcrumb {
                         color: #B1B1B1;
                     }
                 }
+                .bubble {
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 12px;
+                    line-height: 16px;
+                    position: relative;
+                    display: inline-block;
+                    clear: both;
+                    margin-bottom: 15px;
+                    padding: 13px 14px;
+                    vertical-align: top;
+                    border-radius: 10px;
+                    max-width: 80%;
+
+                    span{
+                        float: right;
+                        top: 8px;
+                        position: relative;
+                    }
+
+                    &:before {
+                        position: absolute;
+                        top: 19px;
+                        display: block;
+                        width: 8px;
+                        height: 6px;
+                        content: '\00a0';
+                        transform: rotate(29deg) skew(-35deg);
+                    }
+
+                    &.you {
+                        float: left;
+                        color: #000000;
+                        background: rgba(255, 255, 255, 0.87);
+                        align-self: flex-start;
+                        // @include animation-name(slideFromLeft);
+
+                        &:before {
+                            left: -3px;
+                            background: rgba(255, 255, 255, 0.87);
+                        }
+                    }
+
+                    &.me {
+                        float: right;
+                        color: #000000;
+                        background: #D6F6FA;
+                        align-self: flex-end;
+                        // @include animation-name(slideFromRight);
+
+                        &:before {
+                            right: -3px;
+                            background: #D6F6FA;
+                        }
+                    }
+                }
+            }
+        }
+        .write{
+            position: absolute;
+            bottom:0;
+            width: 100%;
+            background: #fff;
+            height: 65px;
+            padding: 12.5px 20px;
+            input{
+                background: #FDFEFE;
+                border: 1.5px solid #DFDFDF;
+                box-sizing: border-box;
+                border-radius: 50px;
+                width: 95%;
+                height: 40px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 24px;
+                color: rgba(0, 0, 0, 0.16);
+                padding-left: 15px;
+
+            }
+            img{
+                top: -3px;
+                position: relative;
             }
         }
 
