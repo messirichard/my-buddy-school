@@ -410,6 +410,21 @@
   section.contents-courses.pb-5.pt-5 .card.sidebar.profiles .list-group-item a {
     padding: 15px 13px;
   }
+  section.message-breadcrumb .content-message .select-one .inns {
+    display: none;
+  }
+  section.message-breadcrumb .breads-cont .hamburgs .rights img {
+    display: none;
+  }
+  section.message-breadcrumb .breads-cont .create p {
+    width: 70%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 3px;
+  }
+  section.message-breadcrumb .content-message {
+    height: 525px;
+  }
 }
 @media screen and (max-width: 380px) {
   .landing-sec-5 .prelative.container .box-content {

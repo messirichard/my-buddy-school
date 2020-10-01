@@ -3490,3 +3490,112 @@ div#exampleModalQuiz .modal-content .modal-body .inns button.close {
   line-height: 24px;
   color: #070707;
 }
+section.message-breadcrumb .breads-cont {
+  background: #F5F9FC;
+  height: 56px;
+  padding-top: 16px;
+  border-bottom: 1px solid #EFF6FB;
+}
+section.message-breadcrumb .breads-cont .create p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #62C3D0;
+}
+section.message-breadcrumb .breads-cont .create p span img {
+  margin-left: 15px;
+}
+section.message-breadcrumb .breads-cont .hamburgs .lefts {
+  padding-left: 25px;
+}
+section.message-breadcrumb .breads-cont .hamburgs .lefts img {
+  display: inline;
+}
+section.message-breadcrumb .breads-cont .hamburgs .lefts h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #5C5C5C;
+  margin-left: 10px;
+  display: inline;
+}
+section.message-breadcrumb .content-message {
+  height: 690px;
+}
+section.message-breadcrumb .content-message .profile-list ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+section.message-breadcrumb .content-message .profile-list ul li {
+  background: #F9FCFF;
+  border-bottom: 1px solid #EFF6FB;
+  padding: 15px;
+}
+section.message-breadcrumb .content-message .profile-list ul li img {
+  margin: 0 auto;
+  display: block;
+}
+section.message-breadcrumb .content-message .profile-list ul li h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+section.message-breadcrumb .content-message .profile-list ul li p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+section.message-breadcrumb .content-message .message-inbox {
+  background-color: #EFF6FB;
+  height: 690px;
+}
+section.message-breadcrumb .content-message .message-inbox .chat .conversation-start span {
+  padding: 25px 0;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #B1B1B1;
+}
+section.message-breadcrumb .content-message .select-one {
+  background-color: #EFF6FB;
+  display: table;
+  vertical-align: middle;
+  height: 690px;
+  width: 100%;
+}
+section.message-breadcrumb .content-message .select-one .inns {
+  vertical-align: middle;
+  display: table-cell;
+  height: 100%;
+  text-align: center;
+}
+section.message-breadcrumb .content-message .select-one .inns h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #74C0E1;
+  margin: 30px 0 10px;
+}
+section.message-breadcrumb .content-message .select-one .inns p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #AAAAAA;
+}
