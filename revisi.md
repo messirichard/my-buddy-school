@@ -71,17 +71,17 @@ All Course
  
 Course by Grade 
 Grade All 
-- margin antara tulisan mitra dengan card  SMA Laborat terlalu jauh  
-- divider antara mitra dan tutor bss belum sesuai 
-- setiap card memiliki corner radius. 
+- margin antara tulisan mitra dengan card  SMA Laborat terlalu jauh  (done)
+- divider antara mitra dan tutor bss belum sesuai (done)
+- setiap card memiliki corner radius. (done)
 - responsive  
   - margin antar card dan kontent belum sesuai 
   - jumlah card disamakan dengan figma yang responsive 
  
 Grade Category 
-- ukuran card kurang besar, dibuat 3 card per barisnya, dan margin top pada card masih belum sesuai  
+- ukuran card kurang besar, dibuat 3 card per barisnya, dan margin top pada card masih belum sesuai (done)
 - divider antara mitra dan tutor bss belum sesuai 
-- setiap card memiliki corner radius. 
+- setiap card memiliki corner radius. (done)
 - responsive  
   - margin antar card dan konten belum sesuai 
  
@@ -96,4 +96,4 @@ Grade tutor
   - margin antar card dan konten belum sesuai 
  
 grade profile tutor  
-- pada card course terdapat devider dibawah primary school SD dan memiliki corner radius 
+- pada card course terdapat devider dibawah primary school SD dan memiliki corner radius  
